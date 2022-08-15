@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Your Name / Site Title"
+locale                   : "Nanjing China"
+title                    : "Zitong Lan"
 title_separator          : "-"
 name                     : &name "Zitong Lan(兰自桐)"
 description              : &description "A senior student majorin at Electrical Engineering at Southeast University"
