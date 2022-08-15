@@ -11,9 +11,9 @@ title                    : "Zitong Lan"
 title_separator          : "-"
 name                     : &name "Zitong Lan(兰自桐)"
 description              : &description "A senior student majorin at Electrical Engineering at Southeast University"
-url                      : https://zitonglan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://Marcous-2000.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zitonglan.github.io"
+repository               : "Marcous-2000.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
