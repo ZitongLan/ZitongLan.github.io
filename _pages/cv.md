@@ -18,7 +18,7 @@ Research experience
 * Summer 2022: Research Assistant
   * Institute of Software, Chinese Academy of Sciences
   * Duties included: Wireless Sensing
-  * Supervisor: Prof. Jie Xiong(Umass Amherst) & Prof. Fusang Zhang &
+  * Supervisor: Prof. Jie Xiong(Umass Amherst) & Prof. Fusang Zhang
 
 * Summer 2021: Research Assistant
   * Institute of Computing Technology, Chinese Academy of Sciences
