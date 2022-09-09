@@ -12,14 +12,14 @@ I am a senior student majoring in Electrical Engineering at [Southeast Universit
 
 Research experience
 ======
-* Summer 2022: Research Assistant
-  * Institute of Software, Chinese Academy of Sciences
+* Institute of Software, Chinese Academy of Sciences
+  * Aug. 2022 - Now: Research Assistant
   * Duties included: Wireless Sensing
-  * Supervisor: Prof. Jie Xiong(Umass Amherst) & Prof. Fusang Zhang
+  * Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
 
-* Summer 2021: Research Assistant
-  * Institute of Computing Technology, Chinese Academy of Sciences
-  * Duties included: BLE, Direction Finding, Ubiquitous Computing
+* Institute of Computing Technology, Chinese Academy of Sciences
+  * Apr. 2021 to Now: Research Assistant
+  * Duties included: Bluttooth Low Energy, Direction Finding, Ubiquitous Computing
   * Supervisor: Prof. Tengxiang Zhang
 
 
@@ -28,8 +28,13 @@ Publications
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io)
   * Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen 
   * ACM IMWUT /Ubicomp 2022 (Under Review)
-  
+
 * [PCCR Based Wheelchair Control System [Society News]]('http://zitonglan.github.io/files/PCCR_Based_Wheelchair_Control_System_Society_News.pdf')
   * Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al. 
   * IEEE Circuits and Systems Magazine, 2021-8-13
 
+
+Awards
+=====
+* 2021 University Scholarship in Southeast University(1%)
+* IEEE CASS Student Design World Winner
