@@ -10,10 +10,10 @@ locale                   : "Nanjing China"
 title                    : "Zitong Lan"
 title_separator          : "-"
 name                     : &name "Zitong Lan(兰自桐)"
-description              : &description "A senior student majorin at Electrical Engineering at Southeast University"
+description              : &description "A senior student major in at Electrical Engineering at Southeast University. I am looking for Phd position at Mobile Computing, Wireless Sensing and HCI."
 url                      : https://ZitongLan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ZitongLan-2000.github.io"
+repository               : "ZitongLan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zitong Lan"
   avatar           : "profile.png"
-  bio              : "A senior student at Southeast University"
+  bio              : "Senior Student at Southeast University(SEU)"
   location         : "Nanjing, China"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "zitong_lan"
   vine             :
   weibo            :
   xing             :
