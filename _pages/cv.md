@@ -18,21 +18,24 @@ Research experience
 * Summer 2022: Research Assistant
   * Institute of Software, Chinese Academy of Sciences
   * Duties included: Wireless Sensing
-  * Supervisor: Professor Fusang Zhang & Professor Jie Xiong
+  * Supervisor: Prof. Jie Xiong(Umass Amherst) & Prof. Fusang Zhang &
 
 * Summer 2021: Research Assistant
   * Institute of Computing Technology, Chinese Academy of Sciences
   * Duties included: BLE, Direction Finding, Ubiquitous Computing
-  * Supervisor: Professor Tengxiang Zhang
+  * Supervisor: Prof. Tengxiang Zhang
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Software
+  * Matlab
+  * Gnuradio
+  * Vivado
+  * Solidworks
+* Programming Language
+  * C and C++
+  * Python
+  * Matlab
 
 Publications
 ======
