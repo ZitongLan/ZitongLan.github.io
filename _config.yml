@@ -12,7 +12,7 @@ locale                   : "Nanjing China"
 title                    : "Zitong Lan"
 title_separator          : "-"
 name                     : &name "Zitong Lan(兰自桐)"
-description              : &description "A senior student major in at Electrical Engineering at Southeast University. I am looking for Phd position at Mobile Computing, Wireless Sensing and HCI."
+description              : &description "zitonglan1@gmail.com"
 url                      : https://ZitongLan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZitongLan.github.io"
@@ -89,8 +89,8 @@ author:
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=5MzZf-oAAAAJ"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/Zitong_Lan"
+  email            : "zitonglan1@gmail.com"
+  researchgate     : "https://www.researchgate.net/profile/Zitong_Lan"
   uri              :
   bitbucket        :
   codepen          :
