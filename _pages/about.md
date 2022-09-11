@@ -14,25 +14,25 @@ See my **full CV** [here](http://zitonglan.github.io/files/CV_lanzitong.pdf).
 
 Research experience
 ======
-* Institute of Software, Chinese Academy of Sciences 
-  Aug. 2022 - Now: Research Assistant
-  Duties included: Wireless Sensing, Quantum Sensing
-  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
+* Institute of Software, Chinese Academy of Sciences<br>  
+  Aug. 2022 - Now: Research Assistant<br>
+  Duties included: Wireless Sensing, Quantum Sensing<br>
+  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang<br>
 
-* Institute of Computing Technology, Chinese Academy of Sciences
-  Apr. 2021 - Now: Research Assistant
-  Duties included: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing
-  Supervisor: Prof. Tengxiang Zhang
+* Institute of Computing Technology, Chinese Academy of Sciences<br>
+  Apr. 2021 - Now: Research Assistant<br>
+  Duties included: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
+  Supervisor: Prof. Tengxiang Zhang<br>
 
 
 Publications
 ======
-* [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io)
-  Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen 
+* [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io)<br>
+  Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
   ACM IMWUT/Ubicomp 2022 (Under Review)
 
-* [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)
-  Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al. 
+* [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
+  Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
   IEEE Circuits and Systems Magazine, 2021.8
 
 Awards
