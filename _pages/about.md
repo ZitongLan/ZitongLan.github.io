@@ -14,7 +14,7 @@ See my **full CV** [here](http://zitonglan.github.io/files/CV_lanzitong.pdf).
 
 Research experience
 ======
-* Institute of Software, Chinese Academy of Sciences<br>  
+* Institute of Software, Chinese Academy of Sciences<br>
   Aug. 2022 - Now: Research Assistant<br>
   Duties included: Wireless Sensing, Quantum Sensing<br>
   Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
