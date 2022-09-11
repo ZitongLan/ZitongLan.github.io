@@ -17,12 +17,12 @@ Research experience
 * Institute of Software, Chinese Academy of Sciences<br>  
   Aug. 2022 - Now: Research Assistant<br>
   Duties included: Wireless Sensing, Quantum Sensing<br>
-  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang<br>
+  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
 
 * Institute of Computing Technology, Chinese Academy of Sciences<br>
   Apr. 2021 - Now: Research Assistant<br>
   Duties included: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
-  Supervisor: Prof. Tengxiang Zhang<br>
+  Supervisor: Prof. Tengxiang Zhang
 
 
 Publications
