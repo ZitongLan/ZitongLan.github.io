@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at wireless sensing and communication, ubiquitous computing and HCI. I am now a research assistant at [Institute of Software](http://english.is.cas.cn/) advised by [Prof. Jie Xiong (Umass Amherst)](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and testing. I have also been working with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using RF signals to build HCI system. 
+I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at wireless sensing and communication, ubiquitous computing and HCI. I am now a research assistant at [ISCAS](http://english.is.cas.cn/) advised by [Prof. Jie Xiong (Umass Amherst)](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and testing. I have also been working with [Prof. Tengxiang Zhang](https://txzhang.info/) at [ICT](http://www.ict.ac.cn/) in the exploration of using RF signals to build HCI system. 
+
+See my **full CV** [here](http://zitonglan.github.io/files/CV_lanzitong.pdf).
 
 Research experience
 ======
@@ -33,8 +35,7 @@ Publications
   * Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al. 
   * IEEE Circuits and Systems Magazine, 2021-8-13
 
-
 Awards
 =====
-* 2021 University Scholarship in Southeast University(1%)
-* IEEE CASS Student Design World Winner
+* 2021 University Scholarship in Southeast University(2%).
+* 2019-2020 IEEE CASS Student Design World Winner

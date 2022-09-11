@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<!-- For full cv file, please see [here]() -->
+<!-- Education
 ======
 * B.S. in Engineering, Southeast University, 2023 (expected)
 
@@ -41,7 +42,7 @@ Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 
 
