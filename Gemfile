@@ -8,6 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
+
 
 gem "github-pages", group: :jekyll_plugins
 
