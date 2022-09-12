@@ -15,12 +15,12 @@
 <url>
   <loc>https://zitonglan.github.io/sitemap/</loc>
   <lastmod>2022-09-11T12:12:34+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://zitonglan.github.io/404.html</loc>
   <lastmod>2022-09-11T12:12:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.5</priority>
 </url>
 <url>
   <loc>https://zitonglan.github.io/archive-layout-with-content/</loc>
@@ -40,7 +40,7 @@
 <url>
   <loc>https://zitonglan.github.io/cv/</loc>
   <lastmod>2022-09-11T12:12:34+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.6</priority>
 </url>
 <url>
   <loc>https://zitonglan.github.io/markdown/</loc>
