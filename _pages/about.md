@@ -10,7 +10,7 @@ redirect_from:
 
 I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at wireless sensing and communication, ubiquitous computing and HCI. I am now a research assistant at [ISCAS](http://english.is.cas.cn/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. I have also been working with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of combining IoT devices and User-end sources to facilitate ubiquitous computing for HCI system. 
 
-**$\Rightarrow$** See my **full CV** [here](http://zitonglan.github.io/files/CV.pdf).
+**$\Rightarrow$** See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
 Research experience
 ======
@@ -29,7 +29,7 @@ Publications
 ======
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io)<br>
   Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-  ACM IMWUT/Ubicomp 2022 (Under Review)
+  ACM IMWUT/Ubicomp 2023 (to appear)
 
 * [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
   Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
