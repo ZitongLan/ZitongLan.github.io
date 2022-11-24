@@ -19,6 +19,11 @@ Research experience
   Duties included: Wireless Sensing, Quantum Sensing, Signal Processing<br>
   Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
 
+* University of California, Los Angeles<br>
+  Oct. 2022 - Now: Remote Research Intern<br>
+  Duties included: Intermittent Computing, Arduino Development<br>
+  Supervisor: Prof. Yang Zhang
+
 * Institute of Computing Technology, Chinese Academy of Sciences<br>
   Apr. 2021 - Now: Research Assistant<br>
   Duties included: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
