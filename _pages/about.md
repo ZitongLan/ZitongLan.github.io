@@ -42,5 +42,5 @@ Publications
 
 Awards
 =====
-* 2021 University Scholarship in Southeast University(2%).
-* 2019-2020 IEEE CASS Student Design World Winner
+* 2021 University Scholarship in Southeast University. (2%)
+* 2019-2020 IEEE CASS Student Design World Winner. (1st)
