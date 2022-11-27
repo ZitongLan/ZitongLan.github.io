@@ -8,25 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at wireless network, sensing and communication, ubiquitous computing and HCI. I am now a research assistant at [ISCAS](http://english.is.cas.cn/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. I have also been working with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of combining IoT devices and User-end sources to facilitate ubiquitous computing for HCI system. 
+I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at mobile and ubiquitous computing, wireless sensing and communication, and HCI. I am now a research assistant at [ISCAS](http://english.is.cas.cn/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. I have also worked with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using IoT devices information to facilitate ubiquitous computing and HCI applications. 
 
-**$\Rightarrow$** See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
+See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
 Research experience
 ======
 * Institute of Software, Chinese Academy of Sciences<br>
-  Aug. 2022 - Now: Research Assistant<br>
-  Duties included: Wireless Sensing, Quantum Sensing, Signal Processing<br>
+  Aug. 2022 - Now: Research Intern<br>
+  Research Topics: Wireless Sensing, Quantum Sensing, Signal Processing<br>
   Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
 
 * University of California, Los Angeles<br>
   Oct. 2022 - Now: Remote Research Intern<br>
-  Duties included: Intermittent Computing, Arduino Development<br>
+  Research Topics: Intermittent Computing, Arduino Development, Energy Harvest<br>
   Supervisor: Prof. Yang Zhang
 
 * Institute of Computing Technology, Chinese Academy of Sciences<br>
-  Apr. 2021 - Now: Research Assistant<br>
-  Duties included: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
+  Apr. 2021 - Now: Research Intern<br>
+  Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
   Supervisor: Prof. Tengxiang Zhang
 
 
