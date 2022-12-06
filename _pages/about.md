@@ -12,6 +12,17 @@ I am a senior student majoring in Electrical Engineering at [Southeast Universit
 
 See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
+Publications
+======
+* [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
+  Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
+  ACM IMWUT/Ubicomp 2023
+
+* [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
+  Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
+  IEEE Circuits and Systems Magazine, 2021.8
+
+
 Research experience
 ======
 * Umass Amherst<br>
@@ -30,15 +41,6 @@ Research experience
   Supervisor: Prof. Tengxiang Zhang
 
 
-Publications
-======
-* [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
-  Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-  ACM IMWUT/Ubicomp 2023
-
-* [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
-  Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
-  IEEE Circuits and Systems Magazine, 2021.8
 
 Awards
 =====
