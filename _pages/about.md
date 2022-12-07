@@ -28,20 +28,18 @@ Publications
 
 Research experience
 ======
-* Umass Amherst<br>
-  Aug. 2022 - Now: Remote Research Intern<br>
+* **Umass Amherst** - Aug. 2022 - Now<br>
   Research Topics: Wireless Sensing, Signal Processing<br>
-  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
+  Supervisor: **Prof. Jie Xiong & Prof. Fusang Zhang**
 
-* University of California, Los Angeles<br>
-  Oct. 2022 - Now: Remote Research Intern<br>
+* **University of California, Los Angeles** - Oct. 2022 - Now<br>
+ : Remote Research Intern<br>
   Research Topics: Intermittent Computing, Arduino Development, Energy Harvest<br>
-  Supervisor: Prof. Yang Zhang
+  Supervisor: **Prof. Yang Zhang**
 
-* Institute of Computing Technology, Chinese Academy of Sciences<br>
-  Apr. 2021 - Now: Research Intern<br>
+* **Institute of Computing Technology, Chinese Academy of Sciences** -  Apr. 2021 - Aug. 2022<br>
   Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
-  Supervisor: Prof. Tengxiang Zhang
+  Supervisor: **Prof. Tengxiang Zhang**
 
 Awards
 =====
