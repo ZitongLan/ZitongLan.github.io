@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I am looking for Phd position at mobile and ubiquitous computing, wireless system and networking, and HCI. I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. I have also worked with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using IoT devices information to facilitate ubiquitous computing and HCI applications. 
+I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I have a wide span of research interests in mobile and ubiquitous computing, wireless system and networking, and HCI. 
+
+I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation.I am also now working on intermittent computing of Arduino with [Prof. Yang Zhang](https://yangzhang.dev/). I have also worked with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using spatial information of BLE devices to facilitate device selection. 
 
 See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
