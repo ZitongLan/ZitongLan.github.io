@@ -18,7 +18,7 @@ Publications
   Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
   ACM IMWUT/Ubicomp 2023
 
-  
+
 * [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
   Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
   IEEE Circuits and Systems Magazine, 2021.8
@@ -40,8 +40,6 @@ Research experience
   Apr. 2021 - Now: Research Intern<br>
   Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
   Supervisor: Prof. Tengxiang Zhang
-
-
 
 Awards
 =====
