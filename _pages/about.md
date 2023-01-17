@@ -18,7 +18,7 @@ Publications
 ======
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
   Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-  ACM IMWUT/Ubicomp 2023
+  ACM IMWUT Vol. 6, Issue 4 /UbiComp 2023
 
 
 * [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
