@@ -10,7 +10,7 @@ redirect_from:
 
 I am a senior student majoring in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/). I have a wide span of research interests in mobile and ubiquitous computing, wireless system and networking, and HCI. 
 
-I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation.I am also now working on intermittent computing of Arduino with [Prof. Yang Zhang](https://yangzhang.dev/). I have also worked with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using spatial information of BLE devices to facilitate device selection. 
+I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Prof. Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Prof. Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. I just finished a project about realizing intermittent computing on Arduino with [Prof. Yang Zhang](https://yangzhang.dev/). I have also worked with [Prof. Tengxiang Zhang](https://txzhang.info/) in the exploration of using spatial information of BLE devices to facilitate device selection. 
 
 See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
@@ -32,8 +32,8 @@ Research experience
   Research Topics: Wireless Sensing, Signal Processing<br>
   Supervisor: **Prof. Jie Xiong & Prof. Fusang Zhang**
 
-* University of California, Los Angeles -- Oct. 2022 - Now<br>
-  Research Topics: Intermittent Computing, Arduino Development, Energy Harvest<br>
+* University of California, Los Angeles -- Oct. 2022 - Jan. 2023<br>
+  Research Topics: Intermittent Computing, Arduino Development<br>
   Supervisor: **Prof. Yang Zhang**
 
 * Institute of Computing Technology, CAS --  Apr. 2021 - Aug. 2022<br>
