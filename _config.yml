@@ -9,7 +9,7 @@
 # theme                    : minimal-mistakes-jekyll
 # minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "Nanjing China"
-title                    : "Zitong Lan's Homepage"
+title                    : "Homepage of Zitong Lan(兰自桐)"
 title_separator          : "-"
 name                     : &name "Zitong Lan(兰自桐)"
 description              : &description "zitonglan1@gmail.com"
