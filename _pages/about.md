@@ -16,6 +16,12 @@ See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
 Publications
 ======
+* A paper about realizing intermittent computing on Arduino  
+<br>
+  **Zitong Lan**, Yang Zhang<br>
+  In submission
+
+
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
   Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
   ACM IMWUT Vol. 6, Issue 4 /UbiComp 2023
