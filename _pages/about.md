@@ -35,15 +35,15 @@ Research experience
 ======
 * Umass Amherst -- Aug. 2022 - Now<br>
   Research Topics: Wireless Sensing, Signal Processing<br>
-  Supervisor: **Prof. Jie Xiong & Prof. Fusang Zhang**
+  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
 
 * University of California, Los Angeles -- Oct. 2022 - Jan. 2023<br>
   Research Topics: Intermittent Computing, Arduino Development<br>
-  Supervisor: **Prof. Yang Zhang**
+  Supervisor: Prof. Yang Zhang
 
 * Institute of Computing Technology, CAS --  Apr. 2021 - Aug. 2022<br>
   Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
-  Supervisor: **Prof. Tengxiang Zhang**
+  Supervisor: Prof. Tengxiang Zhang
 
 Awards
 =====
