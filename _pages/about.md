@@ -31,7 +31,7 @@ Publications
   IEEE Circuits and Systems Magazine, 2021.8
 
 
-Research experience
+<!-- Research experience
 ======
 * Umass Amherst -- Aug. 2022 - Now<br>
   Research Topics: Wireless Sensing, Signal Processing<br>
@@ -43,7 +43,7 @@ Research experience
 
 * Institute of Computing Technology, CAS --  Apr. 2021 - Aug. 2022<br>
   Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
-  Supervisor: Prof. Tengxiang Zhang
+  Supervisor: Prof. Tengxiang Zhang -->
 
 Awards
 =====
