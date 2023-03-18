@@ -16,6 +16,11 @@ See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
 
 Publications
 ======
+
+* A work about enabling a new sensing modality<br>
+  Fusang Zhang, Beihong Jin, **Zitong Lan** et.al<br>
+  Under review
+
 * A work about realizing intermittent computing on Arduino<br>
   **Zitong Lan**, Yang Zhang<br>
   In submission
