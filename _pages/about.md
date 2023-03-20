@@ -12,7 +12,7 @@ I am now a Year-0 PhD student at ESE department of [University of Pennsylvania](
 
 I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. In the past, I worked on a project about realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). I have also worked with [Tengxiang Zhang](https://txzhang.info/) in the exploration of using direction findings to facilitate device selection. 
 
-See my **full CV** [here](http://zitonglan.github.io/files/cv_zitonglan.pdf).
+See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
 
 Publications
 ======
