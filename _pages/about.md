@@ -19,8 +19,8 @@ Publications
 ======
 
 * A work about enabling a new sensing modality<br>
-  Fusang Zhang, Beihong Jin, **Zitong Lan** et.al<br>
-  Under review
+  Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
+  Under review at Mobicom'23
 
 * A work about realizing intermittent computing on Arduino<br>
   **Zitong Lan**, Yang Zhang<br>
