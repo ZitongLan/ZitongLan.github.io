@@ -10,7 +10,7 @@ redirect_from:
 
 I am an incoming PhD student at ESE department of [University of Pennsylvania](https://www.seas.upenn.edu/) under the supervision of professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing, mobile and ubiquitous computing. I am also about to complete my final year undergraduate study in Electrical Engineering at [Southeast University](https://www.seu.edu.cn/)
 
-I am now a remote research intern at [Umass Amherst](https://www.umass.edu/) advised by [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. In the past, I worked on a project about realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). I have also worked with [Tengxiang Zhang](https://txzhang.info/) to build a novel interaction system of using BLE direction findings to help users select IoT devices. 
+Previously, I worked remotely at [Umass Amherst](https://www.umass.edu/) advised by [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in wireless sensing system implementation and evaluation. In the past, I worked on a project about realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). I have also worked with [Tengxiang Zhang](https://txzhang.info/) to build a novel interaction system of using BLE direction findings to help users select IoT devices. 
 
 
 See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
@@ -21,9 +21,9 @@ Publications
 * Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
   Under review at Mobicom'23
 
-* A work about realizing intermittent computing on Arduino<br>
+<!-- * A work about realizing intermittent computing on Arduino<br>
   **Zitong Lan**, Yang Zhang<br>
-  In submission
+  In submission -->
 
 
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
