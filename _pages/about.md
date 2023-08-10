@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming PhD student at ESE department of [University of Pennsylvania](https://www.seas.upenn.edu/) under the supervision of professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing, mobile and ubiquitous computing. I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. 
+I am a Ph.D. student at ESE department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing, mobile and ubiquitous computing. I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. 
 
 I have worked with [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in quantum wireless sensing system implementation and evaluation. I have also worked on realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). With [Tengxiang Zhang](https://txzhang.info/), I have built a novel interaction system leveraging BLE direction findings to help users select IoT devices. 
 
