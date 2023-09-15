@@ -18,8 +18,9 @@ See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
 Publications
 ======
 
-* Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
-  Conditionally Accepted to Mobicom'23    
+* [Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io)<br>
+  Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
+  Mobicom'23    
 
 
 
