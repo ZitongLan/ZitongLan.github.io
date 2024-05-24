@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at ESE department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing, mobile and ubiquitous computing. I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. 
+I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
 
-I have worked with [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in quantum wireless sensing system implementation and evaluation. I have also worked on realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). With [Tengxiang Zhang](https://txzhang.info/), I have built a novel interaction system leveraging BLE direction findings to help users select IoT devices. 
+I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor.
+
+
+<!-- I have worked with [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in quantum wireless sensing system implementation and evaluation. I have also worked on realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). With [Tengxiang Zhang](https://txzhang.info/), I have built a novel interaction system leveraging BLE direction findings to help users select IoT devices.  -->
 
 
 See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
@@ -31,7 +34,7 @@ Publications
 
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
   Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-  ACM IMWUT Vol. 6, Issue 4 /UbiComp 2023
+  UbiComp 2023
 
 
 * [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
