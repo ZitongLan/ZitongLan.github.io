@@ -8,6 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem 'unicode-display_width', '~> 1.8.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem "github-pages", group: :jekyll_plugins
@@ -18,6 +19,7 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
