@@ -1,15 +1,14 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Bio
-====
+
 I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
 
 
@@ -19,8 +18,6 @@ My research interests lie in the intersection between wireless sensing and machi
 
 Publications
 =====
-
-
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 100%; height: auto;">
