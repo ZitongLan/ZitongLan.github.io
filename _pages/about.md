@@ -41,7 +41,7 @@ Publications
     <p>
         <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-      IMWUT'23 <br> 
+      IMWUT'22 <br> 
       [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>]
     </p>
   </div>
@@ -49,7 +49,7 @@ Publications
 
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
     <img src="../images/wheelchair.png" alt="wheelchair" style="max-width:45%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
@@ -62,8 +62,8 @@ Publications
   </div>
 </div>
 
-
-<!-- Research experience
+<!-- 
+Research experience
 ======
 * Umass Amherst -- Aug. 2022 - Now<br>
   Research Topics: Wireless Sensing, Signal Processing<br>
