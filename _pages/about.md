@@ -9,15 +9,17 @@ redirect_from:
 ---
 
 I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [full CV](http://zitonglan.github.io/files/cv.pdf).
+<br>
 
-
-Research Interest
+Research interest
 =====
+---
 My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
+<br>
 
-Publications
+Publication
 =====
-
+---
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/piowave.png" alt="piowave" style="max-width: 100%; height: auto;">
@@ -57,7 +59,7 @@ Publications
         <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
       IMWUT'22 <br> 
-      [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>]
+      [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>] [<strong><a href='https://www.youtube.com/watch?v=HvsFAsaLGPs'>Video</a></strong>] 
     </p>
   </div>
 </div>
@@ -79,8 +81,11 @@ Publications
 </div>
 
 
+<br>
+
 Awards
 =====
+---
 * 2023 Howard Broadwell Fellow from Upenn.
 * 2023 Outstanding Graduates in Southeast University. (5%)
 * 2021 University Scholarship in Southeast University. (2%)

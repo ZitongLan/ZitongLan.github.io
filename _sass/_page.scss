@@ -12,8 +12,21 @@
   animation-delay: 0.35s;
 
   @include breakpoint(1500px) {
-    max-width:  80%;
+    max-width:  70%;
   }
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: $border-color; /* Use your defined border color */
+  margin: 1em 0; /* Adjust spacing as needed */
+}
+
+/* Additional Styling for Divider */
+.divider {
+  border-top: 1px solid $border-color; /* Use your defined border color */
+  margin: 1em 0; /* Adjust spacing as needed */
 }
 
 .page {
