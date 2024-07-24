@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -29,7 +29,8 @@ Publications
     <p>
       <strong><a href="http://zitonglan.github.io/files/quantum.pdf">Quantum Wireless Sensing: Principle, Design and Implementation</a></strong><br>
       Fusang Zhang, Beihong Jin, <strong>Zitong Lan</strong>, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
-      Mobicom'23
+      Mobicom'23 <br>
+      [<strong><a href="http://zitonglan.github.io/files/quantum.pdf">Paper</a></strong>]
     </p>
   </div>
 </div>
@@ -41,7 +42,7 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses<br>
+        <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
       IMWUT'23 <br> 
       [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>]
@@ -52,21 +53,17 @@ Publications
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 100%; height: auto;">
+    <img src="../images/wheelchair.png" alt="wheelchair" style="max-width:45%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong><a href="http://zitonglan.github.io/files/pccr.pdf">PCCR Based Wheelchair Control System</a></strong><br>
-      Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, **Zitong Lan**, Huiting Xu et.al.<br> 
-      IEEE Circuits and Systems Magazine, 2021.8
+      Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, <strong>Zitong Lan</strong>, Huiting Xu et.al.<br> 
+      IEEE Circuits and Systems Magazine, 2021.8 <br>
+      [<strong><a href="http://zitonglan.github.io/files/pccr.pdf">Paper</a></strong>]
     </p>
   </div>
 </div>
-
-
-* [PCCR Based Wheelchair Control System]()<br>
-  Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, **Zitong Lan**, Huiting Xu et.al.<br> 
-  IEEE Circuits and Systems Magazine, 2021.8
 
 
 <!-- Research experience
