@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Change 5
 I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [full CV](http://zitonglan.github.io/files/cv.pdf).
 
 
@@ -18,6 +17,21 @@ My research interests lie in the intersection between wireless sensing and machi
 
 Publications
 =====
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/piowave.png" alt="piowave" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong><a href="http://zitonglan.github.io">PIOWave: Physics-Guided Neural Impulse RespOnse Field via Implicit Wave Propagation Modeling</a></strong><br>
+      <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
+      Under review <br>
+    </p>
+  </div>
+</div>
+
+<br>
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 100%; height: auto;">
@@ -31,6 +45,7 @@ Publications
     </p>
   </div>
 </div>
+<br>
 
 
 <div style="display: flex; align-items: center;">
@@ -46,6 +61,7 @@ Publications
     </p>
   </div>
 </div>
+<br>
 
 
 <div style="display: flex; align-items: center;">
@@ -62,20 +78,6 @@ Publications
   </div>
 </div>
 
-<!-- 
-Research experience
-======
-* Umass Amherst -- Aug. 2022 - Now<br>
-  Research Topics: Wireless Sensing, Signal Processing<br>
-  Supervisor: Prof. Jie Xiong & Prof. Fusang Zhang
-
-* University of California, Los Angeles -- Oct. 2022 - Jan. 2023<br>
-  Research Topics: Intermittent Computing, Arduino Development<br>
-  Supervisor: Prof. Yang Zhang
-
-* Institute of Computing Technology, CAS --  Apr. 2021 - Aug. 2022<br>
-  Research Topics: Bluetooth Low Energy, Direction Finding, Ubiquitous Computing<br>
-  Supervisor: Prof. Tengxiang Zhang -->
 
 Awards
 =====

@@ -9,6 +9,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'unicode-display_width', '~> 1.8.0'
+gem "webrick"
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem "github-pages", group: :jekyll_plugins

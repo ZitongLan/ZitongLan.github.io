@@ -12,7 +12,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint(1500px) {
-    max-width:  100%;
+    max-width:  80%;
   }
 }
 
@@ -20,7 +20,7 @@
   @include breakpoint(1500px) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0.5 of 12);
   }
 
   .page__inner-wrap {
@@ -72,21 +72,21 @@
     }
   }
 
-  a {
-    text-decoration: underline;
+  // a {
+  //   // text-decoration: underline;
 
-    &:hover {
-      text-decoration: underline;
+  //   &:hover {
+  //     // text-decoration: underline;
 
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
-    }
-  }
+  //     img {
+  //       box-shadow: 0 0 10px rgba(#000, 0.25);
+  //     }
+  //   }
+  // }
   
-  a:hover {
-    text-decoration: underline; /* Optional: This will underline the link when hovered over */
-  }
+  // a:hover {
+  //   text-decoration: underline; /* Optional: This will underline the link when hovered over */
+  // }
 
   dt {
     margin-top: 1em;
