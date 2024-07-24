@@ -8,29 +8,55 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). My research interests are wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
-
-I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor.
-
-
-<!-- I have worked with [Jie Xiong](https://people.cs.umass.edu/~jxiong/) and [Fusang Zhang](https://people.ucas.edu.cn/~zhangfusang?language=en) in quantum wireless sensing system implementation and evaluation. I have also worked on realizing intermittent computing on Arduino with [Yang Zhang](https://yangzhang.dev/). With [Tengxiang Zhang](https://txzhang.info/), I have built a novel interaction system leveraging BLE direction findings to help users select IoT devices.  -->
+Bio
+====
+I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
 
 
-See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
+Research Interest
+=====
+My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
 
 Publications
-======
+=====
 
-* [Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io/files/quantum.pdf)<br>
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>[Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io/files/quantum.pdf)</strong><br>
+      Fusang Zhang, Beihong Jin, <strong>Zitong Lan</strong>, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
+      Mobicom'23
+    </p>
+  </div>
+</div>
+
+
+<!-- * [Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io/files/quantum.pdf)<br>
   Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
   Mobicom'23    
 
-<!-- <img src="images/quantum.png" alt="Description of image" width="600"> -->
-![Figure Description](images/quantum.png)
+![Quantum Wireless Sensing](../images/quantum.png) -->
 
 <!-- * A work about realizing intermittent computing on Arduino<br>
   **Zitong Lan**, Yang Zhang<br>
   In submission -->
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>[BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)</strong><br>
+      Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
+      UbiComp 2023
+    </p>
+  </div>
+</div>
 
 
 * [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
