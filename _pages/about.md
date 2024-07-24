@@ -35,15 +35,20 @@ Publications
 </div>
 
 
-<!-- * [Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io/files/quantum.pdf)<br>
-  Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
-  Mobicom'23    
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses<br>
+      Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
+      IMWUT'23 <br> 
+      [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>]
+    </p>
+  </div>
+</div>
 
-![Quantum Wireless Sensing](../images/quantum.png) -->
-
-<!-- * A work about realizing intermittent computing on Arduino<br>
-  **Zitong Lan**, Yang Zhang<br>
-  In submission -->
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -51,21 +56,16 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
-      Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-      IMWUT'23
+      <strong><a href="http://zitonglan.github.io/files/pccr.pdf">PCCR Based Wheelchair Control System</a></strong><br>
+      Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, **Zitong Lan**, Huiting Xu et.al.<br> 
+      IEEE Circuits and Systems Magazine, 2021.8
     </p>
   </div>
 </div>
 
 
-* [BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)<br>
-  Tengxiang Zhang, **Zitong Lan**, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-  UbiComp 2023
-
-
-* [PCCR Based Wheelchair Control System](http://zitonglan.github.io/files/pccr.pdf)<br>
-  Zhenhao Ji; Yu Tian; Jifu Wang; Mingyuan Ding; Haoxin Wang; Yifan Chen; Jiahao Wen; **Zitong Lan**; Huiting Xu et.al.<br> 
+* [PCCR Based Wheelchair Control System]()<br>
+  Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, **Zitong Lan**, Huiting Xu et.al.<br> 
   IEEE Circuits and Systems Magazine, 2021.8
 
 
