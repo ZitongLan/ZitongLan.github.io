@@ -17,7 +17,7 @@
 }
 
 .page {
-  @include breakpoint(2000x) {
+  @include breakpoint(2000px) {
     @include span(11 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(0.5 of 12);
