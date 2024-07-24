@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [**full CV**](http://zitonglan.github.io/files/cv.pdf).
+I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [full CV](http://zitonglan.github.io/files/cv.pdf).
 
 
 Research Interest
