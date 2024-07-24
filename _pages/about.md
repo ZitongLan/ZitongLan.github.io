@@ -25,7 +25,8 @@ Publications
   Fusang Zhang, Beihong Jin, **Zitong Lan**, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
   Mobicom'23    
 
-
+<!-- <img src="images/quantum.png" alt="Description of image" width="600"> -->
+![Figure Description](images/quantum.png)
 
 <!-- * A work about realizing intermittent computing on Arduino<br>
   **Zitong Lan**, Yang Zhang<br>
