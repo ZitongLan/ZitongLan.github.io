@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
-I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my **full CV** [here](http://zitonglan.github.io/files/cv.pdf).
+I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [**full CV**](http://zitonglan.github.io/files/cv.pdf).
 
 
 Research Interest
@@ -79,6 +78,7 @@ Research experience
 
 Awards
 =====
+* 2023 Howard Broadwell Fellow from Upenn.
 * 2023 Outstanding Graduates in Southeast University. (5%)
 * 2021 University Scholarship in Southeast University. (2%)
-* 2019-2020 IEEE CASS Student Design World Winner. (1st)
+* 2020 IEEE CASS Student Design World Winner. (1st)
