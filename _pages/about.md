@@ -27,7 +27,7 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>[Quantum Wireless Sensing: Principle, Design and Implementation](http://zitonglan.github.io/files/quantum.pdf)</strong><br>
+      <strong><a href="http://zitonglan.github.io/files/quantum.pdf">Quantum Wireless Sensing: Principle, Design and Implementation</a></strong><br>
       Fusang Zhang, Beihong Jin, <strong>Zitong Lan</strong>, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
       Mobicom'23
     </p>
@@ -51,9 +51,9 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>[BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses](http://zitonglan.github.io/files/BLEselect.pdf)</strong><br>
+      <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-      UbiComp 2023
+      IMWUT'23
     </p>
   </div>
 </div>
