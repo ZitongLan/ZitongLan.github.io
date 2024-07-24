@@ -11,13 +11,13 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  @include breakpoint($x-large) {
+  @include breakpoint(1500px) {
     max-width:  1500px;
   }
 }
 
 .page {
-  @include breakpoint($x-large) {
+  @include breakpoint(1500px) {
     @include span(11 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(0.5 of 12);
