@@ -35,6 +35,22 @@
   }
 }
 
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.link-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1E90FF; /* Change this color as needed */
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;

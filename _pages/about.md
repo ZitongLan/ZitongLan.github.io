@@ -11,10 +11,16 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am a Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. See my <a href="http://zitonglan.github.io/files/cv.pdf">full CV</a>. My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
+    I am a Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
+    My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
     </p>
+    <div class="link-container">
+      <a href="mailto:ztlan@seas.upenn.edu">Email</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
+      <a href="http://zitonglan.github.io/files/cv.pdf">CV</a>
+    </div>
   </div>
-    <div style="flex: 1;">
+ <div style="flex: 1; text-align: center;">
     <img src="../images/thumbnail.jpeg" alt="photo" style="max-width: 80%; height: auto;">
   </div>
 </div>
