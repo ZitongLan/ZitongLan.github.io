@@ -8,13 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at Electrical System and Engineering department of [University of Pennsylvania](https://www.seas.upenn.edu/) working with professor [Mingmin Zhao](https://www.cis.upenn.edu/~mingminz/). I graduated from [Southeast University](https://www.seu.edu.cn/) with a bachelor degree in Electrical Engineering with honor. See my [full CV](http://zitonglan.github.io/files/cv.pdf).
-<br>
-
-Research interest
-=====
----
-My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
+    <p>
+    I am a Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. See my <a href="http://zitonglan.github.io/files/cv.pdf">full CV</a>. My research interests lie in the intersection between wireless sensing and machine learning. Currently I am working on acoustic and sound related topics!
+    </p>
+  </div>
+    <div style="flex: 1;">
+    <img src="../images/thumbnail.jpeg" alt="photo" style="max-width: 80%; height: auto;">
+  </div>
+</div>
 <br>
 
 Publication

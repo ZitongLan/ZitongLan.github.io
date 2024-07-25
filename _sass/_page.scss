@@ -12,15 +12,15 @@
   animation-delay: 0.35s;
 
   @include breakpoint(1500px) {
-    max-width:  70%;
+    max-width:  80%;
   }
 }
 
 
 .page {
-  @include breakpoint(1200px) {
+  @include breakpoint(1500px) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include prefix(0 of 12);
     @include suffix(0.5 of 12);
   }
 
