@@ -85,17 +85,18 @@ hr {
     }
   }
 
-  // a {
-  //   // text-decoration: underline;
+  a {
+    text-decoration: none;
+    color: #1e7bd8; /* Normal link color */
 
-  //   &:hover {
-  //     // text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
 
-  //     img {
-  //       box-shadow: 0 0 10px rgba(#000, 0.25);
-  //     }
-  //   }
-  // }
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
   
   // a:hover {
   //   text-decoration: underline; /* Optional: This will underline the link when hovered over */

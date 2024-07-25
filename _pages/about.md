@@ -42,7 +42,7 @@ Publication
     <p>
       <strong><a href="http://zitonglan.github.io/files/quantum.pdf">Quantum Wireless Sensing: Principle, Design and Implementation</a></strong><br>
       Fusang Zhang, Beihong Jin, <strong>Zitong Lan</strong>, Zhaoxin Chang, Daqing Zhang, Yuechun Jiao, Meng Shi, Jie Xiong<br>
-      Mobicom'23 <br>
+      <b><i>Mobicom</i>'23</b> <br>
       [<strong><a href="http://zitonglan.github.io/files/quantum.pdf">Paper</a></strong>]
     </p>
   </div>
@@ -58,7 +58,7 @@ Publication
     <p>
         <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-      IMWUT'22 <br> 
+      <b><i>IMWUT</i>'22</b> <br>
       [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>] [<strong><a href='https://www.youtube.com/watch?v=HvsFAsaLGPs'>Video</a></strong>] 
     </p>
   </div>
@@ -74,13 +74,19 @@ Publication
     <p>
       <strong><a href="http://zitonglan.github.io/files/pccr.pdf">PCCR Based Wheelchair Control System</a></strong><br>
       Zhenhao Ji, Yu Tian, Jifu Wang, Mingyuan Ding, Haoxin Wang, Yifan Chen, Jiahao Wen, <strong>Zitong Lan</strong>, Huiting Xu et.al.<br> 
-      IEEE Circuits and Systems Magazine, 2021.8 <br>
+      <b><i>IEEE Circuits and Systems Magazine</i>, 2021.8</b> <br>
       [<strong><a href="http://zitonglan.github.io/files/pccr.pdf">Paper</a></strong>]
     </p>
   </div>
 </div>
+<br>
 
-
+Experience
+======
+---
+* <b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software](http://english.is.cas.cn/)
+* <b>Oct. 2022 - Jan. 2023</b>: Research Intern, [University of Los Angeles](https://www.ee.ucla.edu/)
+* <b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology](http://english.ict.cas.cn/)
 <br>
 
 Awards
