@@ -16,21 +16,9 @@
   }
 }
 
-hr {
-  border: none;
-  height: 1px;
-  background: $border-color; /* Use your defined border color */
-  margin: 1em 0; /* Adjust spacing as needed */
-}
-
-/* Additional Styling for Divider */
-.divider {
-  border-top: 1px solid $border-color; /* Use your defined border color */
-  margin: 1em 0; /* Adjust spacing as needed */
-}
 
 .page {
-  @include breakpoint(1500px) {
+  @include breakpoint(1200px) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(0.5 of 12);

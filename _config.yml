@@ -85,12 +85,9 @@ author:
   name             : "Zitong Lan"
   avatar           : "thumbnail.jpeg"
   bio              : "ztlan@seas.upenn.edu"
-  location         : "Philadelphia"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=5MzZf-oAAAAJ"
-  email            : "ztlan@seas.upenn.edu"
-  researchgate     : "https://www.researchgate.net/profile/Zitong_Lan"
   uri              :
   bitbucket        :
   codepen          :
@@ -105,13 +102,12 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-8524-6047"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "zitong_lan"
+  # twitter          : "zitong_lan"
   vine             :
   weibo            :
   xing             :
