@@ -41,8 +41,23 @@ Publication
     </p>
   </div>
 </div>
-
 <br>
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong><a href="http://zitonglan.github.io/files/quantum.pdf">Exploring quantum sensing for fine-grained liquid recognition</a></strong><br>
+      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
+      <b><i>Arxiv preprint</i>'23</b> <br>
+      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
+    </p>
+  </div>
+</div>
+<br>
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 100%; height: auto;">
