@@ -26,7 +26,7 @@ redirect_from:
 </div>
 <br>
 
-Publication
+Publications
 =====
 ---
 <div style="display: flex; align-items: center;">
@@ -108,6 +108,7 @@ Publication
 Experience
 ======
 ---
+* <b>Aug. 2023 - Now</b>: Research Assistant, [ESE of University of Pennsylvania](https://www.ese.upenn.edu/)
 * <b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software, Chinese Academy of Sciences](http://english.is.cas.cn/)
 * <b>Oct. 2022 - Jan. 2023</b>: Research Intern, [University of Los Angeles](https://www.ee.ucla.edu/)
 * <b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology, Chinese Academy of Sciences](http://english.ict.cas.cn/)
