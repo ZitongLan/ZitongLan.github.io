@@ -31,11 +31,11 @@ Publications
 ---
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/piowave.png" alt="piowave" style="max-width: 100%; height: auto;">
+    <img src="../images/nirf.png" alt="nirf" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="http://zitonglan.github.io">PIOWave: Physics-Guided Neural Impulse RespOnse Field via Implicit Wave Propagation Modeling</a></strong><br>
+      <strong><a href="http://zitonglan.github.io">NIRF: Physics-Guided Neural Impulse Response Field via Implicit Wave Propagation Modeling</a></strong><br>
       <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
       Under review <br>
     </p>
