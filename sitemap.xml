@@ -15,12 +15,12 @@
 <url>
   <loc>https://zitonglan.github.io/sitemap/</loc>
   <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.0</priority>
 </url>
 <url>
   <loc>https://zitonglan.github.io/404.html</loc>
   <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.0</priority>
 </url>
 <url>
   <loc>https://zitonglan.github.io/archive-layout-with-content/</loc>
@@ -104,26 +104,6 @@
 </url>
 <url>
   <loc>https://zitonglan.github.io/robots.txt</loc>
-  <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0</priority>
-</url>
-<url>
-  <loc>https://zitonglan.github.io/posts/2012/08/blog-post-4/</loc>
-  <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0</priority>
-</url>
-<url>
-  <loc>https://zitonglan.github.io/posts/2014/08/blog-post-3/</loc>
-  <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0</priority>
-</url>
-<url>
-  <loc>https://zitonglan.github.io/posts/2013/08/blog-post-2/</loc>
-  <lastmod>2022-09-12T09:21:56+00:00</lastmod>
-  <priority>0</priority>
-</url>
-<url>
-  <loc>https://zitonglan.github.io/posts/2012/08/blog-post-1/</loc>
   <lastmod>2022-09-12T09:21:56+00:00</lastmod>
   <priority>0</priority>
 </url>

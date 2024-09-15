@@ -38,6 +38,7 @@ Publications
       <strong><a href="http://zitonglan.github.io">SoundingField: Neural Impulse Response Field via Implicit Wave Propagation Modeling</a></strong><br>
       <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
       Under review <br>
+      [<strong><a href="/project/audionerf/index.html">Project page</a></strong>]
     </p>
   </div>
 </div>
