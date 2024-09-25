@@ -35,10 +35,10 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="http://zitonglan.github.io">SoundingField: Neural Impulse Response Field via Implicit Wave Propagation Modeling</a></strong><br>
-      <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
-      Under review <br>
-      [<strong><a href="project/audionerf/audionerf.html">Project page</a></strong>]
+      <strong><a href="http://zitonglan.github.io">Neural Impulse Response Field via Implicit Wave Propagation Modeling</a></strong><br>
+      <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, Zhiwei Zheng, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
+      <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
+      [<strong><a href="project/audionerf/audionerf.html">Project page</a></strong>][<strong><a href="">Code</a></strong>][<strong><a href="">AcoustiX</a></strong>]
     </p>
   </div>
 </div>
