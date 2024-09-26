@@ -28,7 +28,7 @@ redirect_from:
 
 News
 =====
-* (09/2024) Our work on using acoustic volume rendering for neural acoustic field is accepted to ***NeurIPS'24*** with spotlight! 
+* (09/2024) Our work on using acoustic volume rendering for neural acoustic field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd research at Upenn.  
 
 Publications
@@ -36,7 +36,7 @@ Publications
 ---
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/audionerf.png" alt="nirf" style="max-width: 100%; height: auto;">
+    <img src="../images/anerf_teaser.png" alt="nirf" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
