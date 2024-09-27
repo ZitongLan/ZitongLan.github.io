@@ -8,9 +8,9 @@
   <meta property="twitter:title" content="PIOWave">
   <meta property="twitter:description" content="PIOWave: Physics-Guided Neural Impulse RespOnse Field via Implicit Wave Propagation Modeling">
   <meta property="og:type" content="website">
-  <meta name="keywords" content="PIOWave, NERF, rendering, spatial audio">
+  <meta name="keywords" content="Acoustic volume rnedering, NeRF, rendering, spatial audio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PIOWave</title>
+  <title>NIRF</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-D65ZW4CJYF"></script>
@@ -49,7 +49,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">NIRF: Physics-Guided Neural Impulse Response Field via Implicit Wave Propagation Modeling</h1>
+          <h1 class="title is-2 publication-title">NIRF: Acoustic Volume Rendering for Neural Impulse Response Field</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://zitonglan.github.io/">Zitong Lan</a><sup>1</sup>, </span>
@@ -67,7 +67,12 @@
             <span class="author-block"><sup>2</sup>University of Washington &nbsp; </span>
 
           </div>
-          <h1 style="font-size:24px">In Submission</h1>
+          
+          <h1 style="font-size:24px;">
+            <span style="color:black;">NeurIPS'24</span> 
+            <span style="color:red;">Spotlight</span>
+          </h1>
+
 
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -126,18 +131,21 @@
     }
 </style>
 
+
+
 <section>
   <div class="columns is-centered has-text-centered">
     <h2 class="title is-4"></h2>
   </div>
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div style="background-color: #f9f9f9; border-left: 4px solid #3273dc; padding: 10px; margin-bottom: 20px;">
-          <p><strong>Tl;DR:</strong> We propose a method to synthesize impulse response at novel positions. Our method leverages multi-pose consistency for acoustic impulse response and introduces a frequency-domain acoustic volume rendering pipeline.</p>
-        </div>
+  <div class="container" style="max-width: 50%;"> <!-- Adjust the width of the container -->
+    <div class="columns is-centered has-text-centered">
+      <div style="background-color: #f9f9f9; border-left: 2px solid #3273dc; padding: 10px; margin-bottom: 10px;">
+        <p style="font-size:24px;"><strong>Tl;DR:</strong> We propose <b>acoustic volume rendering</b> to do impulse response rendering that leverages multi-pose consistency for acoustic signal.
+           We introduce a <b>frequency-domain rendering</b> pipeline and a <b>spherical signal integration</b> method.</p>
       </div>
+    </div>
   </div>
-</div>
+</section>
 <br>
 <br>
 
@@ -149,7 +157,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="content has-text-justified">
-          <p>  Rendered impulse response from our method on Real Acoustic Field dataset. Headphones are strongly recommended.
+          <p style="font-size:24px;"> 
+            Rendered impulse response from our method on the Real Acoustic Field dataset. Headphones are strongly recommended.
           </p>
     </div>
       </div>
@@ -166,7 +175,7 @@
 </video></center>
 
 
-<br>
+<br><br>
 <br>
 
 
@@ -179,7 +188,7 @@
       <div class="columns is-centered has-text-centered">
 
         <div class="content has-text-justified">
-              <p>Our model can render binaural audio, even though it is only trained on monaural impulse response. Due to the high accuracy of our synthesized impulse responses at different
+              <p style="font-size:24px;">Our model can render binaural audio, even though it is only trained on monaural impulse response. Due to the high accuracy of our synthesized impulse responses at different
                 locations, we can render binaural audio by simply synthesizing the sound heard at the left and right
                 ears separately.  </p>
         </div>
@@ -193,7 +202,7 @@
     Your browser does not support the video tag.
 </video></center>
 </section>
-<br>
+<br><br>
 
 <div class="video-grid">
     <div class="has-text-centered">
@@ -202,14 +211,15 @@
       <div>
         <img src="static/images/teaser_figure.png" class="interpolation-image" alt="Interpolate start reference image." />
       </div>
-      (a) Task illustration. From observations of the sound emitted by a speaker, our
-      model constructs an impulse response field that can synthesize observations at any listener position.
-      <br>
-      (b) The synthesized impulse responses at different locations are transformed into the frequency domain, where we visualize phase and amplitude distributions at a specific wavelength.
-      <br>
-       Our method predict correct signal spatial distributions.
+      <p style="font-size:24px;">      
+         <b>Left: Task illustration.</b> From observations of the sound emitted by a speaker, our
+        model constructs an impulse response field that can synthesize observations at any listener position.
+        <br>
+        <b>Right: Visualization</b> We transfer the signal into frequency domain, and we visualize phase and amplitude distributions at a specific wavelength.<br> Our method predict correct signal spatial distributions.</p>
+
   </div>
   </div>
+  <br>
   <br>
   <div class="video-grid">
     <div class="has-text-centered">
@@ -219,11 +229,13 @@
         <img src="static/images/method.png" class="interpolation-image" alt="Interpolate start reference image." />
       </div>
       <br>
-      a) We begin by uniformly casting rays, sampling points along each ray, and querying the network to obtain signals and density.
-      <br>
-      b) We transfer each signal to frequency domain with phase shift for desired time delay. Volume rendering gets the received signal for one ray. 
-      <br>
-      c) We combine signals from all directions with a gain pattern to obtain the final rendered impulse response.} 
+      <p style="font-size:24px;">
+        a) We begin by uniformly casting rays, sampling points along each ray, and querying the network to obtain signals and density.
+        <br>
+        b) We transfer each signal to frequency domain with phase shift for desired time delay. Volume rendering gets the received signal for one ray. 
+        <br>
+        c) We combine signals from all directions with a gain pattern to obtain the final rendered impulse response.} </p>
+     
   </div>
   </div>
 
@@ -276,16 +288,17 @@
     <div class="video-grid">
       <div>
       <center> <img src="static/images/channel.png" class="interpolation-image" alt="Interpolate start reference image." /> </center>
-      <center>Visualization of spatial signal distributions </center>
+      <center><p style="font-size: 24px;">Visualization of spatial signal distributions </p></center>
       </div>
-      <br>
+      <br><br>
+
     </div>
 
     <div class="video-grid">
         <div>
         <center><img src="static/images/wave.png" class="interpolation-image" alt="Interpolate start reference image." /></center>
         </div>
-        <center>Examples of synthesized impulse response across different methods </center> 
+        <center><p style="font-size: 24px;">Examples of synthesized impulse response across different methods </p></center> 
   </div>
 </section>
  
