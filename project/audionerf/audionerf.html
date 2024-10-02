@@ -49,7 +49,6 @@
 </head>
 
 <body>
-
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
@@ -138,8 +137,6 @@
     }
   </style>
 
-
-
   <section class="section">
     <div class="container" style="max-width: 50%;">
       <div class="columns is-centered has-text-centered">
@@ -147,9 +144,9 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="columns is-centered">
             <div style="background-color: #f9f9f9; border-left: 2px solid #3273dc; padding: 10px; margin-bottom: 10px;">
-              <p style="font-size:24px;"><strong>Tl;DR:</strong> We propose <b>acoustic volume rendering</b> to do
-                impulse response rendering.
-                <br>We introduce <b>frequency-domain rendering</b> and <b>spherical signal integration</b> method.</p>
+              <p style="font-size:20px;"><strong>Tl;DR:</strong> We propose <b>acoustic volume rendering</b> for
+                impulse response rendering. Wave propagation physics is incorporated into the acoustic volume rendering
+                to ensure multi-pose consistency for acoustic signal
             </div>
           </div>
 
@@ -163,10 +160,10 @@
               satisfactory. In this paper, we present NIRF, the first method to leverage acoustic
               volume rendering for ensuring multi-pose consistency in impulse response synthesis.
               By incorporating wave propagation principles, NIRF enables the construction
-              of an impulse response field and achieves state-of-the-art performance in synthesiz-
-              ing impulse responses for unseen poses. We introduce frequency-domain signal
-              rendering and spherical integration specifically for acoustic volume rendering. Ex-
-              periments show that NIRF surpasses the current leading methods by a substantial
+              of an impulse response field and achieves state-of-the-art performance in synthesizing impulse responses
+              for unseen poses. We introduce frequency-domain signal
+              rendering and spherical integration specifically for acoustic volume rendering.
+              Experiments show that NIRF surpasses the current leading methods by a substantial
               margin.
             </p>
           </div>
@@ -183,7 +180,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="content has-text-justified">
-          <p style="font-size:24px;">
+          <p style="font-size:22px;">
             Rendered impulse response from our method on the Real Acoustic Field dataset. <b>Headphones are strongly
               recommended.</b>
           </p>
@@ -214,7 +211,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <div class="content has-text-justified">
-            <p style="font-size:24px;">Our model can render binaural audio. We can render binaural audio by simply
+            <p style="font-size:22px;">Our model can render binaural audio. We can render binaural audio by simply
               synthesizing the sound heard at the left and right
               ears separately. </p>
           </div>
@@ -225,7 +222,6 @@
       <br>
       <center> <video width="640" height="360" controls>
           <source src="static/videos/demo_spatial_seeuagain.mp4" type="video/mp4">
-          Your browser does not support the video tag.
         </video></center>
     </section>
     <br><br>
@@ -238,8 +234,8 @@
           <img src="static/images/teaser_figure.png" class="interpolation-image"
             alt="Interpolate start reference image." />
         </div>
-        <div class="content has-text-justified" style="width: 80%; margin: 0 auto;">
-          <p style="font-size:24px;"><b>Left: Task illustration.</b> From observations of the sound emitted by a
+        <div class="content has-text-justified" style="width: 60%; margin: 0 auto;">
+          <p style="font-size:22px;"><b>Left: Task illustration.</b> From observations of the sound emitted by a
             speaker, our
             model constructs an impulse response field that can synthesize observations at any listener position.
             <br>
@@ -261,23 +257,21 @@
           <img src="static/images/method.png" class="interpolation-image" alt="Interpolate start reference image." />
         </div>
         <br>
-        <div class="content has-text-justified" style="width: 80%; margin: 0 auto;">
-          <p style="font-size:24px;">
-            <b>(a)</b> We uniformly cast rays, samplepoints along each ray, and query the network to obtain
-            signals and density.
-            <br>
-            <b>(b)</b> Signals are delayed and attenuated based on their relative position to speaker and microphone.
-            Acoustic volume
-            rendering is applied to get the signal from each ray.
-            <br>
-            <b>(c)</b> We combine signals from all directions with a gain pattern to obtain the final rendered impulse
-            response. </p>
+        <div class="content has-text-justified" style="width: 60%; margin: 0 auto;">
+          <p style="font-size:22px;">
+            <b>Rendering pipeline.</b> We begin by sampling points along ray, and querying the network to obtain signals
+            and density.
+            Time delay is applied to account for the wave propagation. After that, we combine signals
+            and densities to perform acoustic volume rendering for each ray to get the directional signal.
+            We integrate along the sphere to combine signals from all possible directions with gain pattern
+            to obtain the final rendered impulse response.
         </div>
       </div>
     </div>
 
 
-    <br>
+    <br> <br>
+
 
     <style>
       .video-grid-two-cols {
@@ -308,7 +302,7 @@
     <br>
     <section>
       <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Qualitative result</h2>
+        <h2 class="title is-3">More Qualitative Result</h2>
         <a id="interactive_demo"></a>
       </div>
       <div class="video-grid">
@@ -316,7 +310,7 @@
           <center> <img src="static/images/channel.png" class="interpolation-image"
               alt="Interpolate start reference image." /> </center>
           <center>
-            <p style="font-size: 24px;">Visualization of spatial signal distributions </p>
+            <p style="font-size: 22px;">Visualization of spatial signal distributions </p>
           </center>
         </div>
         <br><br>
@@ -328,7 +322,7 @@
               alt="Interpolate start reference image." /></center>
         </div>
         <center>
-          <p style="font-size: 24px;">Synthesized impulse response across different methods </p>
+          <p style="font-size: 22px;">Synthesized impulse response across different methods </p>
         </center>
       </div>
     </section>
