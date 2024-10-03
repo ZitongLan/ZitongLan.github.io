@@ -28,7 +28,7 @@ redirect_from:
 
 News
 =====
-* (09/2024) Our work on using acoustic volume rendering for neural acoustic field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
+* (09/2024) Our work (NIRF) on using acoustic volume rendering for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd research at Upenn.  
 
 Publications
@@ -40,7 +40,7 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="http://zitonglan.github.io">Neural Impulse Response Field via Implicit Wave Propagation Modeling</a></strong><br>
+      <strong><a href="http://zitonglan.github.io">NIRF: Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, Zhiwei Zheng, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
       <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="../project/audionerf/audionerf.html">Project page</a></strong>][<strong><a href="">Code</a></strong>][<strong><a href="">AcoustiX</a></strong>]
