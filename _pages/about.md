@@ -28,7 +28,7 @@ redirect_from:
 
 News
 =====
-* (09/2024) Our work (NIRF) on using acoustic volume rendering for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
+* (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd research at Upenn.  
 
 Publications
