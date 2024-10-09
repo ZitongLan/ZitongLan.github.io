@@ -54,7 +54,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-2 publication-title">NIRF: Acoustic Volume Rendering for Neural Impulse Response Field
+            <h1 class="title is-2 publication-title">Acoustic Volume Rendering for Neural Impulse Response Field
             </h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
@@ -152,19 +152,20 @@
 
           <div class="content has-text-justified">
             <p style="font-size:20px;">
-              As technologies like Virtual Reality continue to advance, realistic synthesis of
-              spatial sound has become crucial for creating immersive experiences. Synthesizing
-              the sound received at any position relies on the estimation of impulse response (IR),
-              which describes how sound propagates in one scene. While various learning-based
-              approaches have been proposed, their generalization to unseen poses remains un-
-              satisfactory. In this paper, we present NIRF, the first method to leverage acoustic
-              volume rendering for ensuring multi-pose consistency in impulse response synthesis.
-              By incorporating wave propagation principles, NIRF enables the construction
-              of an impulse response field and achieves state-of-the-art performance in synthesizing impulse responses
-              for unseen poses. We introduce frequency-domain signal
-              rendering and spherical integration specifically for acoustic volume rendering.
-              Experiments show that NIRF surpasses the current leading methods by a substantial
-              margin.
+              As technologies like Virtual Reality continue to advance, realistic synthesis of spatial sound has become
+              crucial for creating immersive experiences.
+              Synthesizing the sound received at any position relies on the estimation of impulse response (IR), which
+              describes how sound propagates in one scene.
+              While various learning-based approaches have been proposed, their generalization to unseen poses remains
+              unsatisfactory.
+              In this paper, we present <b>A</b>coustic <b>V</b>olume <b>R</b>endering (AVR) for impulse
+              response rendering. AVR enables the construction of an impulse response field that follows wave
+              propagation principles and achieves state-of-the-art performance in synthesizing impulse responses for
+              unseen poses. We introduce frequency-domain signal rendering and spherical integration specifically for
+              acoustic volume rendering.
+              Experiments show that AVR surpasses the current leading methods by a substantial margin.
+              Additionally, we developed an acoustic simulation platform, AcoustiX, which simulates more realistic
+              impulse responses than existing simulators.
             </p>
           </div>
         </div>
@@ -236,11 +237,12 @@
         </div>
         <div class="content has-text-justified" style="width: 60%; margin: 0 auto;">
           <p style="font-size:22px;"><b>Left: Task illustration.</b> From observations of the sound emitted by a
-            speaker, our
-            model constructs an impulse response field that can synthesize observations at any listener position.
+            speaker, our model constructs an impulse response field that can synthesize observations at any listener
+            position.
             <br>
-            <b>Right:Waveform visualization</b> We transfer the signal into frequency domain, and we visualize phase and
-            amplitude distributions at a specific wavelength. Our method predict correct signal spatial distributions.
+            <b>Right: Waveform visualization</b> We transfer the signal into frequency domain, and we visualize phase
+            and amplitude distributions at a specific wavelength. Our method predict correct signal spatial
+            distributions.
           </p>
           </p>
         </div>
@@ -259,12 +261,11 @@
         <br>
         <div class="content has-text-justified" style="width: 60%; margin: 0 auto;">
           <p style="font-size:22px;">
-            <b>Rendering pipeline.</b> We begin by sampling points along ray, and querying the network to obtain signals
-            and density.
-            Time delay is applied to account for the wave propagation. After that, we combine signals
-            and densities to perform acoustic volume rendering for each ray to get the directional signal.
-            We integrate along the sphere to combine signals from all possible directions with gain pattern
-            to obtain the final rendered impulse response.
+            <b>Rendering pipeline.</b> We sample points along the ray that is shot from the microphone, and query the
+            network to obtain signals and density. Time delay is applied to account for the wave propagation. After
+            that, we combine signals and densities to perform acoustic volume rendering for each ray to get the
+            directional signal. We integrate along the sphere to combine signals from all possible directions with gain
+            pattern to obtain the final rendered impulse response.
         </div>
       </div>
     </div>
