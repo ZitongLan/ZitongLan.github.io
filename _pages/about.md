@@ -36,11 +36,11 @@ Publications
 ---
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/anerf_teaser.png" alt="nirf" style="max-width: 100%; height: auto;">
+    <img src="../images/anerf_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="http://zitonglan.github.io">NIRF: Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
+      <strong><a href="http://zitonglan.github.io">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, Zhiwei Zheng, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
       <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="../project/audionerf/audionerf.html">Project page</a></strong>][<strong><a href="">Code</a></strong>][<strong><a href="">AcoustiX</a></strong>]
