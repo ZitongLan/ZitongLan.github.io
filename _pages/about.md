@@ -26,6 +26,8 @@ redirect_from:
 </div>
 <br>
 
+<span style="color:red;"> I am actively looking for a summer internship for 2025. Please drop me a email if there is a good fit!</span>
+
 News
 =====
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
