@@ -43,7 +43,7 @@ Publications
       <strong><a href="http://zitonglan.github.io">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, Zhiwei Zheng, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
       <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
-      [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/ZitongLan/AVR">AVR code</a></strong>][<strong><a href="https://github.com/ZitongLan/AcoustiX">AcoustiX code</a></strong>]
+      [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
     </p>
   </div>
 </div>
