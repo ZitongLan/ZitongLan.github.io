@@ -26,7 +26,7 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"> I am actively looking for a summer internship for 2025. Please drop me a email if there is a good fit!</span>
+<span style="color:red;"> I am actively looking for a 2025 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in audio and sound learning, and wireless sensing</span>
 
 News
 =====
