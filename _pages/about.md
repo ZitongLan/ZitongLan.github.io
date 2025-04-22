@@ -11,8 +11,8 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am a <s>first</s> second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
-    My research interests lie in the intersection between <b>machine learning</b> and <b>wireless sensing</b>. Currently I am working on <b>acoustic</b> and <b>sound</b> related topics, especially about acoustic field and impulse response reconstruction. Feel free to drop me an email if you are interested in my research!
+    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
+    My research interests lie in the intersection between <b>machine learning</b> and <b>wireless sensing</b>. Currently I am working on <b>acoustic</b> and <b>sound</b> related topics, especially about audio generations and editing, acoustic field and impulse response reconstruction. Feel free to drop me an email if you are interested in my research!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
@@ -26,12 +26,11 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"> I am actively looking for a 2025 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in audio and sound learning, and wireless sensing</span>
 
 News
 =====
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
-* (09/2023) I start my phd research at Upenn.  
+* (09/2023) I start my phd at Upenn.  
 
 Publications
 =====
@@ -125,6 +124,7 @@ Experience
 Awards
 =====
 ---
+* 2024 Neurips travel grant.
 * 2023 Howard Broadwell Fellow from Upenn.
 * 2023 Outstanding Graduates in Southeast University. (5%)
 * 2021 University Scholarship in Southeast University. (2%)
