@@ -12,7 +12,7 @@ redirect_from:
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
     I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
-    My research interests lie in the intersection between <b>machine learning</b> and <b>wireless sensing</b>. Currently I am working on <b>acoustic</b> and <b>sound</b> related topics, especially about audio generations and editing, acoustic field and impulse response reconstruction. Feel free to drop me an email if you are interested in my research!
+    My research interests lie in the intersection between <b>deep learning</b> and <b>mobile computing</b>. Currently I am working on <b>acoustic</b> and <b>sound</b> related topics, especially about audio generations and editing, acoustic field and impulse response reconstruction. Feel free to drop me an email if you are interested in my research!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
