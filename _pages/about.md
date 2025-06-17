@@ -11,8 +11,8 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> working with professor <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
-    My research interests lie in the intersection between <b>deep learning</b> and <b>mobile computing</b>. Currently I am working on <b>acoustic</b> and <b>sound</b> related topics, especially about audio generations and editing, acoustic field and impulse response reconstruction. Feel free to drop me an email if you are interested in my research!
+    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
+    My research interests lie in the intersection between <b>deep learning</b> and <b>mobile computing</b>. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about audio generations and editing, acoustic field (impulse response) modeling. Feel free to drop me an email if you are interested in my research for collaborations!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
@@ -124,6 +124,7 @@ Experience
 Awards
 =====
 ---
+* 2025 CVPR distinguished reviewer.
 * 2024 Neurips travel grant.
 * 2023 Howard Broadwell Fellow from Upenn.
 * 2023 Outstanding Graduates in Southeast University. (5%)
