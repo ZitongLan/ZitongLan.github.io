@@ -42,7 +42,7 @@ Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao
+      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao<br>
       <b><i>In submission</i></b>
       <br>
     </p>
