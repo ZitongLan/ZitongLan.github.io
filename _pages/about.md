@@ -11,8 +11,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. 
-    My research interests lie in the intersection between <b>deep learning</b> and <b>mobile computing</b>. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about audio generations and editing, acoustic field (impulse response) modeling. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
@@ -42,8 +41,8 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>A paper about intelligent audio editing</strong><br>
-      <strong>Zitong Lan et al.</strong>
+      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
+      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao
       <b><i>In submission</i></b>
       <br>
     </p>
@@ -65,6 +64,22 @@ Publications
   </div>
 </div>
 <br>
+
+<!-- <div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="" alt="" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>Using radar for NLOS perception</strong><br>
+      <strong>Zitong Lan et al.</strong>
+      <b><i>In submission</i> </b>
+      <br>
+    </p>
+  </div>
+</div>
+<br> -->
+
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
