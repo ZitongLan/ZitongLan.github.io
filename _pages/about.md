@@ -11,7 +11,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a second year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a third year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
