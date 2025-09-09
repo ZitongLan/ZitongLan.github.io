@@ -37,13 +37,14 @@ Publications
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="" alt="" style="max-width: 100%; height: auto;">
+    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao<br>
-      <b><i>In submission</i></b>
+       <b><i>Arxiv preprint</i></b><br>
+      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
       <br>
     </p>
   </div>
@@ -64,21 +65,6 @@ Publications
   </div>
 </div>
 <br>
-
-<!-- <div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="" alt="" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong>Using radar for NLOS perception</strong><br>
-      <strong>Zitong Lan et al.</strong>
-      <b><i>In submission</i> </b>
-      <br>
-    </p>
-  </div>
-</div>
-<br> -->
 
 
 <div style="display: flex; align-items: center;">
