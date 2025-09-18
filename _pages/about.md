@@ -25,6 +25,9 @@ redirect_from:
 </div>
 <br>
 
+<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in acoustic field modeling, spatial audio generation and audio generation and editing</span>
+
+
 
 News
 =====
@@ -32,13 +35,13 @@ News
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
-Publications
+Selected Publications
 =====
 ---
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="" alt="" style="max-width: 100%; height: auto;">
+    <img src="../images/reciprocity_teaser.png" alt="" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -53,7 +56,7 @@ Publications
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="" alt="" style="max-width: 100%; height: auto;">
+    <img src="../images/holoradar_teaser.png" alt="" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -146,7 +149,7 @@ Publications
 <br>
 
 
-<div style="display: flex; align-items: center;">
+<!-- <div style="display: flex; align-items: center;">
   <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
     <img src="../images/wheelchair.png" alt="wheelchair" style="max-width:45%; height: auto;">
   </div>
@@ -159,7 +162,7 @@ Publications
     </p>
   </div>
 </div>
-<br>
+<br> -->
 
 Experience
 ======
