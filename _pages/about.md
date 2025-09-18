@@ -28,6 +28,7 @@ redirect_from:
 
 News
 =====
+* (09/2025) Two papers accepted at NeurIPS'25. Our acoustic field paper proposes two learning strategy inspired by the reciprocity principle. Our radar paper leverages wall reflections to image the hidden people and object around the corner.
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
@@ -37,15 +38,14 @@ Publications
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    <img src="" alt="" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao<br>
-       <b><i>Arxiv preprint</i></b><br>
+      <strong>Resounding Acoustic Fields with Reciprocity</strong><br>
+      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao <br>
+      <b><i>NeurIPS</i>'25 </b> <br>
       [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
-      <br>
     </p>
   </div>
 </div>
@@ -57,9 +57,26 @@ Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>A learning strategy for acoustic field reconstruction</strong><br>
-      <strong>Zitong Lan et al.</strong>
-      <b><i>In submission</i> </b>
+      <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
+      Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
+      <b><i>NeurIPS</i>'25 </b> <br>
+      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
+    </p>
+  </div>
+</div>
+<br>
+
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
+      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao<br>
+       <b><i>Arxiv preprint</i></b><br>
+      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
       <br>
     </p>
   </div>
