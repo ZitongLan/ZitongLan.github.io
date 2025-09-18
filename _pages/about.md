@@ -46,7 +46,7 @@ Selected Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong>Resounding Acoustic Fields with Reciprocity</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao <br>
+      <strong>Zitong Lan</strong>, <a href="https://yiduohao.github.io/"> Yiduo Hao </a>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
       [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
     </p>
@@ -61,7 +61,7 @@ Selected Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
-      Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
+      <a href="https://haowenlai.github.io/"> Haowen Lai </a>, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
       [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
     </p>
@@ -77,7 +77,7 @@ Selected Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao<br>
+      <strong>Zitong Lan</strong>, <a href="https://yiduohao.github.io/"> Yiduo Hao </a>, Mingmin Zhao<br>
        <b><i>Arxiv preprint</i></b><br>
       [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
       <br>
@@ -94,7 +94,7 @@ Selected Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
-      <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, Zhiwei Zheng, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
+      <a href="https://zitonglan.github.io/"> <strong>Zitong Lan</strong></a>,<a href="https://hellomuffin.github.io/"> Chenhao Zheng </a>, <a href="https://zhiwei-zzz.github.io/">Zhiwei Zheng </a>, <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a><br>
       <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
     </p>
@@ -141,7 +141,7 @@ Selected Publications
     <p>
         <strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">BLEselect: Gestural IoT Device Selection via Bluetooth Angle of Arrival Estimation from Smart Glasses</a></strong><br>
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
-      <b><i>IMWUT</i>'22</b> <br>
+      <b><i>Ubicomp</i>'23</b> <br>
       [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>] [<strong><a href='https://www.youtube.com/watch?v=HvsFAsaLGPs'>Video</a></strong>] 
     </p>
   </div>
