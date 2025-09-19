@@ -56,22 +56,6 @@ Selected Publications
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="../images/holoradar_teaser.png" alt="" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
-      <a href="https://haowenlai.github.io/"> Haowen Lai </a>, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
-      <b><i>NeurIPS</i>'25 </b> <br>
-      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
-    </p>
-  </div>
-</div>
-<br>
-
-
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
     <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
@@ -81,6 +65,21 @@ Selected Publications
        <b><i>Arxiv preprint</i></b><br>
       [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
       <br>
+    </p>
+  </div>
+</div>
+<br>
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/holoradar_teaser.png" alt="" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
+      <a href="https://haowenlai.github.io/"> Haowen Lai </a>, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
+      <b><i>NeurIPS</i>'25 </b> <br>
+      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
     </p>
   </div>
 </div>
@@ -102,20 +101,7 @@ Selected Publications
 </div>
 <br>
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong><a href="https://arxiv.org/abs/2407.19656">Exploring quantum sensing for fine-grained liquid recognition</a></strong><br>
-      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
-      <b><i>Arxiv preprint</i></b> <br>
-      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
-    </p>
-  </div>
-</div>
-<br>
+
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -132,6 +118,20 @@ Selected Publications
 </div>
 <br>
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong><a href="https://arxiv.org/abs/2407.19656">Exploring quantum sensing for fine-grained liquid recognition</a></strong><br>
+      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
+      <b><i>Arxiv preprint</i></b> <br>
+      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
+    </p>
+  </div>
+</div>
+<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
