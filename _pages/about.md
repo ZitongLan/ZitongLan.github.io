@@ -25,7 +25,7 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in acoustic field modeling, spatial audio generation and audio generation and editing</span>
+<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in acoustic field modeling,  audio generation and editing and spatial audio rendering</span>
 
 
 
