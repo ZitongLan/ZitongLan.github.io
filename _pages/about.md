@@ -31,7 +31,7 @@ redirect_from:
 
 News
 =====
-* (09/2025) Two papers accepted at NeurIPS'25. Our acoustic field paper proposes two learning strategy inspired by the reciprocity principle. Our radar paper leverages wall reflections to image the hidden people and object around the corner.
+* (09/2025) Two papers accepted at NeurIPS'25. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner.
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
