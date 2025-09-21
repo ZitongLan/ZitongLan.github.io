@@ -48,7 +48,7 @@ Selected Publications
       <strong>Resounding Acoustic Fields with Reciprocity</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
-      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
+      <!-- [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>] -->
     </p>
   </div>
 </div>
@@ -63,7 +63,7 @@ Selected Publications
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
        <b><i>To appear in Arxiv preprint</i></b><br>
-      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
+      <!-- [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>] -->
       <br>
     </p>
   </div>
@@ -79,7 +79,7 @@ Selected Publications
       <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
-      [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>]
+      <!-- [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>] -->
     </p>
   </div>
 </div>
