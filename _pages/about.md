@@ -11,7 +11,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a third year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a third year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> where I work with Prof <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
@@ -31,7 +31,7 @@ redirect_from:
 
 News
 =====
-* (09/2025) One paper is accepted by NeurIPS'2025 Workshop GenProCC. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
+* (09/2025) SmartDJ is accepted by NeurIPS'2025 <a href="https://genprocc.github.io/">GenProCC </a> workshop. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
 * (09/2025) Two papers are accepted at NeurIPS'25. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner.
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
