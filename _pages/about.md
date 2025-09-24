@@ -31,7 +31,8 @@ redirect_from:
 
 News
 =====
-* (09/2025) Two papers accepted at NeurIPS'25. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner.
+* (09/2025) One paper is accepted by NeurIPS'2025 Workshop GenProCC. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
+* (09/2025) Two papers are accepted at NeurIPS'25. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner.
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
@@ -62,8 +63,7 @@ Selected Publications
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-       <b><i>To appear in Arxiv preprint</i></b><br>
-      <!-- [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>] -->
+       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation (GenProCC) Workshop</b><br>
       <br>
     </p>
   </div>
