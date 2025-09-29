@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Guilding Audio Editing with Audio Language Model">
+  <meta property="og:title" content="SmartDJ">
+  <meta property="og:description" content="Guilding Audio Editing with Audio Language Model">
+  <meta property="twitter:title" content="SmartDJ">
+  <meta property="twitter:description" content="SmartDJ: Guilding Audio Editing with Audio Language Model">
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="Audio Editing, Audio Language Model, Latent Diffusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartDJ</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D65ZW4CJYF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-D65ZW4CJYF');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="./static/js/jquery-3.6.4.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/lazy.js"></script>
+  <script src="./static/js/faster.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+
+<!-- <style>
+  .container.is-wide { max-width: 1440px; }  /* or 90vw */
+</style> -->
+
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Guiding Audio Editing with Audio
+              Language Model
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://zitonglan.github.io/">Zitong Lan</a>, </span>
+              <span class="author-block">
+                <a href="https://yiduohao.github.io/">Yiduo Hao</a>, </span>
+              <span class="author-block">
+                <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a></span>
+              <span class="author-block">
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">University of Pennsylvania &nbsp; </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      /* Three columns */
+      grid-template-rows: repeat(1, 1fr);
+      /* Two rows */
+      gap: 0px 4px;
+      /* Gap between videos */
+      width: 65%;
+      /* Set the container width to 80% */
+      margin: 0 auto;
+      /* Center the container horizontally */
+    }
+
+    .video-grid video {
+      width: 100%;
+      /* Videos fill the container width */
+      height: auto;
+    }
+  </style>
+
+
+  <!-- <section class="section">
+    <div class="container" style="max-width: 50%;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p style="font-size:18px;">
+              Audio editing is increasingly important in immersive applications such as VR/AR, virtual conferencing, and sound design. 
+              While diffusion-based models have enabled language-driven audio editing, existing methods rely on predefined instruction formats and are limited to mono-channel audio.
+              In this work, we introduce SmartDJ (Ours), a novel framework for stereo audio editing that combines the reasoning capabilities of Audio Language Models (ALMs) with the generative power of latent diffusion. 
+              Given a high-level prompt, SmartDJ (Ours) decomposes it into a sequence of atomic editing steps, which are executed sequentially by a conditional diffusion model trained to manipulate stereo audio. 
+              We also develop a scalable data synthesis pipeline that generates training samples consisting of a high-level instruction, a sequence of atomic edits, and the corresponding audio at each step of the editing process. 
+              Experiments show that SmartDJ (Ours) outperforms prior methods in perceptual quality, spatial coherence, and alignment with complex user instructions. 
+              The code and dataset will be open source once accepted.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section> -->
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartDJ (Ours) • Audio Editing Examples</title>
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="./static/css/bulma.min.css" />
+
+    <!-- Custom styles for comparison layout -->
+    <style>
+      /* Card-like block for a single editing example */
+      .audio-example {
+        margin-bottom: 2.25rem;
+        padding: 1.25rem 1rem;
+        border-radius: 8px;
+        background-color: #f5f8ff;
+        /* light blue tint */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+      }
+
+      /* Tidy up prompt subtitle inside the colored block */
+      .audio-example .subtitle {
+        margin-bottom: 1.25rem;
+      }
+
+      /* Audio column layout */
+      .audio-sample {
+        text-align: center;
+      }
+
+      .audio-sample audio {
+        width: 100%;
+        height: 38px;
+        /* uniform player height */
+        margin-top: 0.25rem;
+      }
+
+      .container.is-wide {
+        max-width: 90vw;
+        /* or set a fixed px like 1440px */
+      }
+
+      nav#toc ul {
+        list-style: square;
+        margin-left: 1.25rem
+      }
+
+      nav#toc a {
+        font-weight: 600
+      }
+
+      /* nav#toc{text-align:center} */
+      /* Let the list itself shrink to its content so centering works */
+      /* nav#toc ul{display:inline-block;margin-left:0;text-align:left} */
+    </style>
+  </head>
+
+
+  <!-- ── Table of Contents nav──────────────────────────────────── -->
+  <nav id="toc" class="section">
+    <div class="container">
+      <h2 class="title is-3">Contents</h2>
+      <ul>
+        <li><a href="#highlevel">High‑level audio editing examples</a></li>
+        <li><a href="#add">Atomic action: Add</a></li>
+        <li><a href="#remove">Atomic action: Remove</a></li>
+        <li><a href="#extract">Atomic action: Extract</a></li>
+        <li><a href="#change">Atomic action: Change direction</a></li>
+        <li><a href="#turn">Atomic action: Turn up / down</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="highlevel" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">High‑level audio editing examples</h1>
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a workshop by
+          the dock”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Remove the sound of metal knock</li>
+        <li>Add the sound of seagulls squawking at left by 3dB</li>
+        <li>Turn down the sound of motorboat running by 2dB</li>
+        <li>Add the sound of waves lapping at right by 2dB</li>
+        <br>
+
+        <!-- Audio versions for Example 1 -->
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0005.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0005.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0005.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0005.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0005.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0005.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0005.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0005.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0005.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0005.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a protest in a
+          city”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Turn up the sound of emergency siren by 3dB</li>
+        <li>Remove the sound of man speech</li>
+        <li>Add the sound of crowd chanting at front by 3dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0006.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0006.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0006.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0006.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0006.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0006.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0006.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0006.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0006.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0006.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a serene beach”
+        </p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Remove the sound of whistling</li>
+        <li>Turn up the sound of wave crash by 4dB</li>
+        <li>Add the sound of seagulls calling at front by 3dB</li>
+        <br>
+
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0004.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0004.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0004.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0004.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0004.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0004.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0004.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0004.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0004.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0004.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a busy city
+          street”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of distant sirens at left by 3 dB</li>
+        <li>Add the sound of footsteps on pavement at right by 2 dB</li>
+        <li>Turn down the sound of engine rev by 2dB</li>
+        <li>Remove the sound of bell ring</li>
+        <br>
+        <!-- Audio versions for Example 1 -->
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0002.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0002.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0002.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0002.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0002.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0002.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0002.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0002.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0002.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0002.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a cozy living
+          room”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of fireplace crackle at left by 3dB</li>
+        <li>Turn down the sound of woman speech by 2dB</li>
+        <li>Remove the sound of cat meow</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0007.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0007.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0007.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0007.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0007.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0007.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0007.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0007.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0007.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0007.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like in an outdoor
+          concert”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Remove the sound of whistle</li>
+        <li>Turn down the sound of woman speech by 2dB</li>
+        <li>Add the sound of guitar strumming at left by 2dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0008.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0008.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0008.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0008.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0008.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0008.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0008.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0008.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0008.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0008.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a busy office”
+        </p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of phone ringing at right by 3dB</li>
+        <li>Turn up the sound of typewriter type by 2dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0009.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0009.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0009.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0009.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0009.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0009.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0009.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0009.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0009.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0009.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a quiet
+          workshop”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of soft hammering at right by 2dB</li>
+        <li>Remove the sound of tractor thud</li>
+        <li>Change the sound of object crumple to left</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0010.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0010.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0010.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0010.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0010.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0010.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0010.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0010.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0010.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0010.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a city park”
+        </p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of bicycle bells at left by 3dB</li>
+        <li>Add the sound of footsteps on gravel at right by 2dB</li>
+        <li>Remove the sound of engine rev</li>
+        <li>Turn up the sound of baby laugh by 2dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0011.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0011.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0011.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0011.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0011.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0011.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0011.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0011.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0011.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0011.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Craft this sound like a peaceful
+          farm night”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of crickets chirping at front by 2dB</li>
+        <li>Turn up the sound of snore by 3dB</li>
+        <li>Turn down the sound of goat bleat by 2dB</li>
+        <br>
+
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a busy daycare
+          center”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Turn up the sound of child cry by 3dB</li>
+        <li>Remove the sound of car engine</li>
+        <li>Add the sound of toys clattering at left by 2dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0012.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0012.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0012.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0012.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0012.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0012.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0012.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0012.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0012.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0012.png" style="width:100%; margin-top:4px;">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="audio-example">
+        <!-- 🔖 Text description for this audio set -->
+        <p class="subtitle is-5 has-text"><strong>High-level instruction:</strong> “Make this sound like a military
+          training ground”</p>
+        <p class="subtitle is-5 has-text mb-1">
+          <strong>ALM inferenced atomic editing steps:</strong>
+        </p>
+        <li>Add the sound of cannon fire at right by 4dB</li>
+        <li>Turn up the sound of clank by 2dB</li>
+        <br>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/original/0013.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/original/0013.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_zeta/0013.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_zeta/0013.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audioeditor/0013.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audioeditor/0013.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_audit/0013.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_audit/0013.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/whole_pipeline/edited_smartdj/0013.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/whole_pipeline/edited_smartdj/0013.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="add" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">Atomic editing action: Add</h1>
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Add the sound of water falling at the
+          front with -1 db”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/original/000003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/original/000003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/zeta/000003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/zeta/000003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audioeditor/000003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audioeditor/000003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audit/000003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audit/000003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/smartdj/000003.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/smartdj/000003.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Add the sound of engine revs at the left
+          with 0 db”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/original/000189.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/original/000189.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/zeta/000189.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/zeta/000189.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audioeditor/000189.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audioeditor/000189.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audit/000189.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audit/000189.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/smartdj/000189.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/smartdj/000189.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Add the sound of music playing and people
+          singning at the right with 0 db”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/original/000446.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/original/000446.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/zeta/000446.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/zeta/000446.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audioeditor/000446.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audioeditor/000446.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/audit/000446.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/audit/000446.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/add/smartdj/000446.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/add/smartdj/000446.png" style="width:100%; margin-top:4px;">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section id="remove" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">Atomic editing action: Remove</h1>
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Remove the sound of baby crying at the
+          front”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/original/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/original/000029.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/zeta/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/zeta/000029.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/audioeditor/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/audioeditor/000029.png"
+              style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/audit/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/audit/000029.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/smartdj/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/smartdj/000029.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/gt/000029.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/gt/000029.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Remove the sound of man speaking at left”
+        </p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/original/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/original/000178.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/zeta/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/zeta/000178.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/audioeditor/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/audioeditor/000178.png"
+              style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/audit/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/audit/000178.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/smartdj/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/smartdj/000178.png" style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/remove/gt/000178.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/remove/gt/000178.png" style="width:100%; margin-top:4px;">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="extract" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">Atomic editing action: Extract</h1>
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “extract the sound of water pours, horn
+          honks, and man speaks at the front”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/original/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/original/000001.png"
+              style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/zeta/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/zeta/000001.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/audioeditor/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/audioeditor/000001.png"
+              style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/audit/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/audit/000001.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/smartdj/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/smartdj/000001.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/gt/000001.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/gt/000001.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “extract the sound of whistles</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/original/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/original/000575.png"
+              style="width:100%; margin-top:4px;">
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">ZETA</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/zeta/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/zeta/000575.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">AudioEditor</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/audioeditor/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/audioeditor/000575.png"
+              style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/audit/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/audit/000575.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/smartdj/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/smartdj/000575.png" style="width:100%; margin-top:4px;">
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/extract/gt/000575.wav" type="audio/wav" />
+            </audio>
+            <img src="static/audios/individual_editings/extract/gt/000575.png" style="width:100%; margin-top:4px;">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="change" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">Atomic editing action: Change sound direction</h1>
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Change the sound of woman speaking, food
+          frying at the front to the right”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/original/000013.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/audit/000013.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/smartdj/000013.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/gt/000013.wav" type="audio/wav" />
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “change the sound of whistling and male
+          speech to the left</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/original/000310.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/audit/000310.wav" type="audio/wav" />
+            </audio>
+
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/smartdj/000310.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/change/gt/000310.wav" type="audio/wav" />
+            </audio>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="turn" class="section.is-tighter">
+    <div class="container is-wide">
+      <h1 class="title has-text-centered">Atomic editing action: Turn up/down</h1>
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Turn up the sound of waves crashing, wind
+          blows by 6 db”</p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/original/000044.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/audit/000044.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/smartdj/000044.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/gt/000044.wav" type="audio/wav" />
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-example">
+        <p class="subtitle is-5 has-text"><strong>Edit instruction:</strong> “Turn down the sound of typewriter by 6 db”
+        </p>
+        <div class="columns is-vcentered audio-row is-multiline">
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Original</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/original/000250.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Audit</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/audit/000250.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">SmartDJ (Ours)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/smartdj/000250.wav" type="audio/wav" />
+            </audio>
+          </div>
+          <div class="column audio-sample">
+            <p class="has-text-weight-semibold">Target (Ground truth)</p>
+            <audio controls>
+              <source src="static/audios/individual_editings/turn/gt/000250.wav" type="audio/wav" />
+            </audio>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+</body>
+
+</html>
