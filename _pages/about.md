@@ -30,8 +30,7 @@ redirect_from:
 
 News
 =====
-* (09/2025) SmartDJ is accepted by NeurIPS'2025 <a href="https://genprocc.github.io/">GenProCC </a> workshop. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
-* (09/2025) Two papers are accepted at NeurIPS'25. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner.
+* (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner; One paper is accepted by NeurIPS'25 GenProCC workshop. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
@@ -78,7 +77,6 @@ Selected Publications
       <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
-      <!-- [<strong><a href="">Paper</a></strong>][<strong><a href="">Project page</a></strong>] -->
     </p>
   </div>
 </div>
