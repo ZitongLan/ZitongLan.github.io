@@ -174,8 +174,8 @@ Experience
 Awards
 =====
 ---
-* 2025 CVPR distinguished reviewer.
-* 2024 Neurips travel grant.
+* 2025 NeurIPS top reviewer, CVPR distinguished reviewer.
+* 2024 NeurIPS travel grant.
 * 2023 Howard Broadwell Fellow from Upenn.
 * 2023 Outstanding Graduates in Southeast University. (5%)
 * 2021 University Scholarship in Southeast University. (2%)
