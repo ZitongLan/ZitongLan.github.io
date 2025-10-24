@@ -48,7 +48,7 @@ Selected Publications
       <strong>Resounding Acoustic Fields with Reciprocity</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
-      [<strong><a href="">Paper</a></strong>][<strong><a href="../project/versa/versa.html">Project page</a></strong>]
+      [<strong><a href="https://arxiv.org/abs/2510.20602">Paper</a></strong>][<strong><a href="../project/versa/versa.html">Project page</a></strong>]
     </p>
   </div>
 </div>
