@@ -181,3 +181,7 @@ Awards
 * 2023 Outstanding Graduates in Southeast University. (5%)
 * 2021 University Scholarship in Southeast University. (2%)
 * 2020 IEEE CASS Student Design World Winner. (1st)
+
+Miscellaneous
+====
+Besides research, I like runninig, swimming, tennis, soccer, badminton... All kinds of sports! I love food, plants, movies, playing piano. I am also studying Japaness! Konnichiwa!
