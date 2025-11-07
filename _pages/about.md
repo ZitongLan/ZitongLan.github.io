@@ -62,7 +62,7 @@ Selected Publications
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation</b><br>
+       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation <span style="color:red;">Oral</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
       <br>
     </p>
