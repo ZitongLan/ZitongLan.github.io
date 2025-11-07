@@ -26,12 +26,13 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in acoustic field modeling,  audio generation and editing and spatial audio rendering</span>
+<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in multimodal understanding and generation</span>
 
 
 News
 =====
-* (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner; One paper is accepted by NeurIPS'25 GenProCC workshop. SmartDJ introduce audio language model to perform high-level instruction based audio editing. 
+* (11/2025) SmartDJ is accepted by NeurIPS'25 GenProCC workshop with Oral presentation, see you in San Diego! 
+* (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner. 
 * (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
@@ -62,7 +63,8 @@ Selected Publications
     <p>
       <strong>Guiding Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation <span style="color:red;">Oral</span></b><br>
+       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation </b><br>
+       <b><span style="color:red;">Oral presentation</span> </b><br>
       [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
       <br>
     </p>
@@ -93,7 +95,8 @@ Selected Publications
     <p>
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <strong>Zitong Lan</strong>,Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
-      <b><i>NeurIPS</i>'24 <span style="color:red;"> Spotlight</span></b><br>
+      <b><i>NeurIPS</i>'24</b><br>
+      <b> <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
     </p>
   </div>
