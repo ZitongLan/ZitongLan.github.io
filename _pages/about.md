@@ -26,7 +26,7 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"> I am actively looking for a 2026 summer internship position. Please drop me a email if there is a good fit in the research topics! I am in general interested in multimodal understanding and generation</span>
+<span style="color:red;">I am actively looking for a 2026 summer internship position. I am interested in multimodal understanding and generation! Please reach out to me if there is a good fit.</span>
 
 
 News
