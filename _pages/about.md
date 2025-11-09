@@ -31,9 +31,9 @@ redirect_from:
 
 News
 =====
-* (11/2025) SmartDJ is accepted by NeurIPS'25 GenProCC workshop with Oral presentation, see you in San Diego! 
-* (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) Our acoustic field paper introduces a learning strategy inspired by the reciprocity principle. (ii) Our radar paper leverages wall reflections to image the hidden people and object around the corner. 
-* (09/2024) Our work on using Acoustic Volume Rendering(AVR) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
+* (11/2025) <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by NeurIPS'25 GenProCC workshop with Oral presentation, see you in San Diego! 
+* (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) <strong><a href="https://arxiv.org/abs/2509.21625">Versa</a></strong> introduces a learning strategy inspired by the reciprocity principle for acoustic field training. (ii) <strong><a href="https://openreview.net/forum?id=f4Wd385vHi">HoloRadar</a></strong> leverages wall reflections to image the hidden people and object around the corner. 
+* (09/2024) Our work on using Acoustic Volume Rendering (<strong><a href="https://arxiv.org/abs/2411.06307">AVR</a></strong>) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
 * (09/2023) I start my phd at Upenn.  
 
 Selected Publications
@@ -95,7 +95,7 @@ Selected Publications
   <div style="flex: 2; padding-left: 20px;">
     <p>
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
-      <strong>Zitong Lan</strong>,Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
+      <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
       <b><i>NeurIPS</i>'24</b><br>
       <b> <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
