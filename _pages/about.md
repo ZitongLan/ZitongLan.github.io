@@ -11,13 +11,13 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a third year Ph.D. student at Electrical System and Engineering department of <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about physical acoustic field (impulse response) modeling, audio generations and editing, audio llm. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> where I work with Mingmin Zhao. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about acoustic field modeling, audio generations and editing and audio language model. Feel free to drop me an email if you are interested in my research for collaborations!
     I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. In the past, I am very fortunate to work with Prof. Tengxiang Zhang, Fusang Zhang, Jie Xiong and Yang Zhang.
     </p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
       <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
-      <a href="http://zitonglan.github.io/files/cv.pdf">CV</a>
+      <a href="http://zitonglan.github.io/files/CV_zitonglan.pdf">CV</a>
     </div>
   </div>
  <div style="flex: 1; text-align: center;">
@@ -40,6 +40,24 @@ Selected Publications
 =====
 ---
 
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
+      <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
+       <b><i>NeurIPS</i>'25 Workshop on Generative and Protective AI for Content Creation </b><br>
+      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
+        <br><b><span style="color:red;">Oral presentation</span> </b><br>
+      <br>
+    </p>
+  </div>
+</div>
+<br>
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/reciprocity_teaser.png" alt="" style="max-width: 100%; height: auto;">
@@ -55,22 +73,6 @@ Selected Publications
 </div>
 <br>
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-       <b><i>NeurIPS</i>'25 Generative and Protective AI for Content Creation </b><br>
-       <b><span style="color:red;">Oral presentation</span> </b><br>
-      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
-      <br>
-    </p>
-  </div>
-</div>
-<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -97,8 +99,8 @@ Selected Publications
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
       <b><i>NeurIPS</i>'24</b><br>
-      <b> <span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
+      <br><b><span style="color:red;"> Spotlight</span></b><br>
     </p>
   </div>
 </div>
