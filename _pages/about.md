@@ -11,7 +11,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> where I work with Mingmin Zhao. Currently I am working on <b>acoustic</b> and <b>audio</b> related topics, especially about acoustic field modeling, audio generations and editing and audio language model. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> where I work with Mingmin Zhao. Currently I am working on <b>audio</b> related topics, especially about audio generations/editing, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
     I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. In the past, I am very fortunate to work with Prof. Tengxiang Zhang, Fusang Zhang, Jie Xiong and Yang Zhang.
     </p>
     <div class="link-container">
@@ -21,12 +21,12 @@ redirect_from:
     </div>
   </div>
  <div style="flex: 1; text-align: center;">
-    <img src="../images/thumbnail.jpeg" alt="photo" style="max-width: 80%; height: auto;">
+    <img src="../images/SD_image.jpg" alt="photo" style="max-width: 80%; height: auto;">
   </div>
 </div>
 <br>
 
-<span style="color:red;">I am actively looking for a 2026 summer internship position. I am interested in multimodal understanding and generation! Please reach out to me if there is a good fit.</span>
+<!-- <span style="color:red;">I am actively looking for a 2026 summer internship position. I am interested in multimodal understanding and generation! Please reach out to me if there is a good fit.</span> -->
 
 
 News
