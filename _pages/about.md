@@ -83,7 +83,7 @@ Selected Publications
       <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
-      [<strong><a href="https://openreview.net/forum?id=f4Wd385vHi">Paper</a></strong>]
+      [<strong><a href="https://openreview.net/forum?id=f4Wd385vHi">Paper</a></strong>][<strong><a href="https://waves.seas.upenn.edu/projects/holoradar/">Project page</a></strong>]
     </p>
   </div>
 </div>
