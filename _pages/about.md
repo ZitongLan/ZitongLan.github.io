@@ -41,6 +41,22 @@ Selected Publications
 ---
 
 
+  <div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>
+        <strong>Building Audio-Visual Digital Twins with Smartphones</strong><br>
+        <strong>Zitong Lan et. al.</strong>, <br>
+        <b>In submission to Mobisys 2026</b><br>
+        [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>]
+        <br>
+      </p>
+    </div>
+  </div>
+  <br>
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
