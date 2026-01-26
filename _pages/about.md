@@ -31,6 +31,7 @@ redirect_from:
 
 News
 =====
+* (1/2026) Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by ICLR'26!!! See you in Brazil!
 * (11/2025) <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by NeurIPS'25 GenProCC workshop with Oral presentation, see you in San Diego! 
 * (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) <strong><a href="https://arxiv.org/abs/2509.21625">Versa</a></strong> introduces a learning strategy inspired by the reciprocity principle for acoustic field training. (ii) <strong><a href="https://openreview.net/forum?id=f4Wd385vHi">HoloRadar</a></strong> leverages wall reflections to image the hidden people and object around the corner. 
 * (09/2024) Our work on using Acoustic Volume Rendering (<strong><a href="https://arxiv.org/abs/2411.06307">AVR</a></strong>) for neural impulse response field is accepted to ***NeurIPS'24*** with ***Spotlight***! 
@@ -40,6 +41,23 @@ Selected Publications
 =====
 ---
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>Declarative Audio Editing with Audio Language Model</strong><br>
+      <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
+      <b><i>ICLR</i>'26</b> <br>
+      <b><i>NeurIPS</i>'25 GenProcc Workshop </b> <b><span style="color:red;">Oral</span> </b><br>
+      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
+        <br><br>
+      <br>
+    </p>
+  </div>
+</div>
+<br>
 
   <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -57,22 +75,7 @@ Selected Publications
   </div>
   <br>
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong>Guiding Audio Editing with Audio Language Model</strong><br>
-      <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-       <b><i>NeurIPS</i>'25 Workshop on Generative and Protective AI for Content Creation </b><br>
-      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
-        <br><b><span style="color:red;">Oral presentation</span> </b><br>
-      <br>
-    </p>
-  </div>
-</div>
-<br>
+
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -139,20 +142,6 @@ Selected Publications
 </div>
 <br>
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong><a href="https://arxiv.org/abs/2407.19656">Exploring quantum sensing for fine-grained liquid recognition</a></strong><br>
-      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
-      <b><i>Arxiv preprint</i></b> <br>
-      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
-    </p>
-  </div>
-</div>
-<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -164,6 +153,21 @@ Selected Publications
       Tengxiang Zhang, <strong>Zitong Lan</strong>, Chenren Xu, Yanrong Li, Yiqiang Chen<br>
       <b><i>Ubicomp</i>'23</b> <br>
       [<strong><a href="http://zitonglan.github.io/files/BLEselect.pdf">Paper</a></strong>] [<strong><a href='https://www.youtube.com/watch?v=HvsFAsaLGPs'>Video</a></strong>] 
+    </p>
+  </div>
+</div>
+<br>
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong><a href="https://arxiv.org/abs/2407.19656">Exploring quantum sensing for fine-grained liquid recognition</a></strong><br>
+      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
+      <b><i>Arxiv preprint</i></b> <br>
+      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
     </p>
   </div>
 </div>
