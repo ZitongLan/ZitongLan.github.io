@@ -49,8 +49,7 @@ Selected Publications
     <p>
       <strong>Declarative Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-      <b><i>ICLR</i>'26</b> <br>
-      <b><i>NeurIPS</i>'25 GenProcc Workshop </b> <b><span style="color:red;">Oral</span> </b><br>
+      <b><i>ICLR</i>'26</b>, <b><i>NeurIPS</i>'25 GenProcc </b> <b><span style="color:red;">Oral</span> </b><br>
       [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
         <br><br>
       <br>
@@ -67,7 +66,7 @@ Selected Publications
       <p>
         <strong>Building Audio-Visual Digital Twins with Smartphones</strong><br>
         <strong>Zitong Lan et. al.</strong>, <br>
-        <b>In submission to Mobisys 2026</b><br>
+        <b>Submitted to Mobisys'26</b><br>
         [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>]
         <br>
       </p>
@@ -117,9 +116,8 @@ Selected Publications
     <p>
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse Response Field</a></strong><br>
       <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
-      <b><i>NeurIPS</i>'24</b><br>
+      <b><i>NeurIPS</i>'24</b><b><span style="color:red;"> Spotlight</span></b><br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a href="../project/avr/avr.html">Project page</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
-      <br><b><span style="color:red;"> Spotlight</span></b><br>
     </p>
   </div>
 </div>
