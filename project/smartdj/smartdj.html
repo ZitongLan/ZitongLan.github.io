@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <base href="https://zitonglan.github.io/project/smartdj/">
+  <!-- <base href="https://zitonglan.github.io/project/smartdj/"> -->
   <meta name="description" content="Guilding Audio Editing with Audio Language Model">
   <meta property="og:title" content="SmartDJ">
   <meta property="og:description" content="Guilding Audio Editing with Audio Language Model">
@@ -82,6 +82,29 @@
               <span style="color:black;">NeurIPS'25 GenProCC</span> <span style="color:red;">Oral</span>
             </h1>
 
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2509.21625" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -129,25 +152,6 @@
     </div>
   </div>
 
-  <!-- <section class="section">
-    <div class="container" style="max-width: 50%;">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Abstract</h2>
-          <div class="content has-text-justified">
-            <p style="font-size:18px;">
-              Audio editing is increasingly important in immersive applications such as VR/AR, virtual conferencing, and sound design. 
-              While diffusion-based models have enabled language-driven audio editing, existing methods rely on predefined instruction formats and are limited to mono-channel audio.
-              In this work, we introduce SmartDJ (Ours), a novel framework for stereo audio editing that combines the reasoning capabilities of Audio Language Models (ALMs) with the generative power of latent diffusion. 
-              Given a high-level prompt, SmartDJ (Ours) decomposes it into a sequence of atomic editing steps, which are executed sequentially by a conditional diffusion model trained to manipulate stereo audio. 
-              We also develop a scalable data synthesis pipeline that generates training samples consisting of a high-level instruction, a sequence of atomic edits, and the corresponding audio at each step of the editing process. 
-              Experiments show that SmartDJ (Ours) outperforms prior methods in perceptual quality, spatial coherence, and alignment with complex user instructions. 
-              The code and dataset will be open source once accepted.
-            </p>
-          </div>
-        </div>
-      </div>
-  </section> -->
 
 
   <head>
@@ -208,10 +212,314 @@
   </head>
 
 
+  <!-- 
+  <nav class="navbar sticky-nav" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#top">
+        <span class="icon"><i class="fa-solid fa-compact-disc"></i></span>
+        <strong style="margin-left:.5rem;">SmartDJ</strong>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#overview">Overview</a>
+        <a class="navbar-item" href="#method">Method</a>
+        <a class="navbar-item" href="#dataset">Dataset</a>
+        <a class="navbar-item" href="#results">Results</a>
+        <a class="navbar-item" href="#demos">Demos</a>
+        <a class="navbar-item" href="#citation">Citation</a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-light" href="static/smartdj_paper.pdf" target="_blank" rel="noopener">
+              <span class="icon"><i class="fa-regular fa-file-pdf"></i></span><span>Paper</span>
+            </a>
+            <a class="button is-light" href="static/smartdj_supp.pdf" target="_blank" rel="noopener">
+              <span class="icon"><i class="fa-regular fa-folder-open"></i></span><span>Supp</span>
+            </a>
+            <a class="button is-link" href="https://github.com/YOUR_GITHUB/SMARTDJ" target="_blank" rel="noopener">
+              <span class="icon"><i class="fa-brands fa-github"></i></span><span>Code</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+ -->
+
+
+  <!-- OVERVIEW -->
+  <section id="overview" class="section anchor">
+    <div class="container">
+      <h2 class="title is-3 section-title">Overview</h2>
+
+      <div class="columns">
+        <div class="column is-4">
+          <div class="content">
+            <p>
+              Audio editors today usually expect <strong>template-like commands</strong>
+              (e.g., “add birds”, “remove rain”), and most operate only on <strong>mono</strong> audio.
+              In practice, users want to provide a single <strong>declarative instruction</strong>
+              (“make it sound like a quiet sunny forest”) and let the system figure out the steps —
+              while preserving spatial cues in stereo audio.
+            </p>
+
+            <div class="callout">
+              <p class="mb-2"><strong>SmartDJ = Planner + Editor</strong></p>
+              <ul>
+                <li><strong>ALM Planner</strong>: perceives the original audio + interprets the goal → emits an <em>edit
+                    recipe</em> (atomic steps).</li>
+                <li><strong>LDM Editor</strong>: executes each atomic step sequentially in stereo latent space.</li>
+              </ul>
+            </div>
+
+            <p>
+              The intermediate plan is natural language, so it's <strong>inspectable</strong>,
+              <strong>editable</strong>, and enables human-in-the-loop workflows.
+            </p>
+          </div>
+        </div>
+
+        <div class="column is-8">
+          <div class="box soft figure-card">
+            <p class="has-text-weight-semibold">Pipeline snapshot</p>
+            <img src="./static/audios/images/smartdj_teaser.png" style="width:100%; margin-top:4px;">
+            <p class="has-text-grey is-size-7" style="margin-top:.5rem;">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- just show a smartdj teaser figure here -->
+
+
+  <!-- METHOD -->
+  <section id="method" class="section anchor" style="background:#fcfcff;">
+    <div class="container">
+      <h2 class="title is-3 section-title">Method</h2>
+      <p class="subtitle is-6">From declarative goal → atomic edits → high-quality stereo diffusion editing</p>
+
+
+
+      <!-- High-level -->
+      <div class="columns">
+        <div class="column is-7">
+          <div class="box soft">
+            <h3 class="title is-5">Problem: Declarative Audio Editing</h3>
+            <div class="content">
+              <p>
+                Input: an original stereo waveform <span class="mono">a<sub>0</sub></span>
+                and a high-level instruction <span class="mono">P</span> (e.g., “make it sound like a sunny forest”).
+                The goal is to output an edited waveform <span class="mono">a<sub>n</sub></span>
+                that achieves <span class="mono">P</span> while preserving all unedited content from the original audio.
+              </p>
+              <p>
+                SmartDJ decomposes <span class="mono">P</span> into a sequence of atomic steps
+                <span class="mono">S = {s<sub>1</sub>, …, s<sub>n</sub>}</span>, then applies them sequentially:
+              </p>
+              <pre
+                class="mono">S = ALM(a<sub>0</sub>, P) a<sub>i</sub> = LDM(a<sub>i-1</sub>, s<sub>i</sub>)   for i = 1..n</pre>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column is-5">
+          <div class="box soft">
+            <h3 class="title is-5">Atomic Edit Operations</h3>
+            <div class="content">
+              <p>Each step targets a specific event/property:</p>
+              <div class="tags">
+                <span class="tag">Add</span>
+                <span class="tag">Remove</span>
+                <span class="tag">Extract</span>
+                <span class="tag">Volume</span>
+                <span class="tag">Change Direction</span>
+                <span class="tag">Time Shift</span>
+                <span class="tag">Reverb</span>
+                <span class="tag">Timbre</span>
+              </div>
+              <p class="has-text-grey">
+                Why atomic? It makes complex edits composable and keeps the plan interpretable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-12 is-offset-0">
+        <div class="box soft figure-card">
+          <p class="has-text-weight-semibold">Framework</p>
+          <img src="./static/audios/images/smartdj_framework.png" style="width:90%; margin-top:4px;">
+          <p class="has-text-grey is-size-7" style="margin-top:.5rem;">
+          </p>
+        </div>
+      </div>
+
+      <!-- Modules -->
+      <div class="columns">
+        <div class="column is-6">
+          <div class="box soft">
+            <h3 class="title is-5">
+              <span class="icon"><i class="fa-solid fa-brain"></i></span>
+              ALM Planner
+            </h3>
+            <div class="content">
+              <p>
+                The Audio Language Model takes both audio and text and generates a step-by-step edit recipe.
+              </p>
+              <ul>
+                <li><strong>Audio grounding:</strong> encode <span class="mono">a<sub>0</sub></span> using a pretrained
+                  audio
+                  encoder (e.g., CLAP).</li>
+                <li><strong>Fusion:</strong> inject audio embedding into the LLM via adapter layers.</li>
+                <li><strong>Efficient tuning:</strong> freeze the audio encoder; fine-tune adapters + LoRA on the LLM.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-6">
+          <div class="box soft">
+            <h3 class="title is-5">
+              <span class="icon"><i class="fa-solid fa-wave-square"></i></span>
+              Stereo LDM Editor
+            </h3>
+            <div class="content">
+              <p>
+                The editor performs each step as conditional diffusion in a compressed latent space.
+              </p>
+              <ul>
+                <li><strong>Stereo VAE:</strong> encode stereo audio into latent.
+                </li>
+                <li><strong>Edit conditioning:</strong> concatenate previous latent with a noised latent, condition on
+                  step text via cross-attention.</li>
+                <li><strong>Inference:</strong> DDIM sampling + classifier-free guidance for strong prompt adherence.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="column is-4">
+          <div class="box soft">
+            <h3 class="title is-5">
+              <span class="icon"><i class="fa-solid fa-database"></i></span>
+              Data Synthesis
+            </h3>
+            <div class="content">
+              <p>
+                We generate supervision for declarative editing with a scalable designer–composer pipeline.
+              </p>
+              <ul>
+                <li><strong>Designer (LLM):</strong> writes a declarative goal and decomposes it into atomic steps.</li>
+                <li><strong>Composer (DSP):</strong> mixes labeled events and renders each step to produce intermediate
+                  audios.</li>
+                <li><strong>Spatial realism:</strong> binaural cues + room acoustics simulation for stereo scenes.</li>
+              </ul>
+              <p class="has-text-grey is-size-7">
+                Outcome: paired (instruction, plan, stepwise audios) for training planner and editor.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- DATASET -->
+  <section id="dataset" class="section anchor">
+    <div class="container">
+      <h2 class="title is-3 section-title">Dataset</h2>
+
+      <div class="columns">
+        <div class="column is-6">
+          <div class="box soft">
+            <h3 class="title is-5">Designer–Composer Pipeline</h3>
+            <div class="content">
+              <p>
+                To train SmartDJ, we synthesize editable stereo scenes by sampling labeled single-event clips,
+                mixing them into a base scene, and then rendering stepwise edits from an LLM-generated recipe.
+              </p>
+              <ul>
+                <li>Sample <strong>K</strong> labeled events (e.g., “car engine”, “bell ring”)</li>
+                <li>LLM generates a declarative instruction + atomic steps</li>
+                <li>DSP composer applies each step to produce <span class="mono">a1…an</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-6">
+          <div class="box soft figure-card">
+            <p class="has-text-weight-semibold">Dataset illustration</p>
+            <img src="static/audios/images/dataset_synthesis.png" alt="Dataset pipeline figure"
+              style="width:100%; margin-top:.0rem;">
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="columns">
+        <div class="column is-4">
+          <div class="box soft">
+            <h3 class="title is-6">What we provide</h3>
+            <div class="content">
+              <ul>
+                <li>Declarative instruction</li>
+                <li>Atomic edit sequence</li>
+                <li>Full edit trajectory audios</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box soft">
+            <h3 class="title is-6">Stereo realism</h3>
+            <div class="content">
+              <ul>
+                <li>Interaural cues (time/level)</li>
+                <li>Room reverberation simulation</li>
+                <li>Randomized scene layouts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box soft">
+            <h3 class="title is-6">Scale (edit as needed)</h3>
+            <div class="content">
+              <ul>
+                <li>Multi-step sequences: <strong>50k</strong></li>
+                <li>Single-step edits: <strong>1M</strong></li>
+                <li>Eval sets: multi-step + single-step</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
   <!-- ── Table of Contents nav──────────────────────────────────── -->
   <nav id="toc" class="section">
     <div class="container">
-      <h2 class="title is-3">Contents</h2>
+      <h2 class="title is-3">Demo Results</h2>
       <ul>
         <li><a href="#highlevel">High‑level audio editing examples</a></li>
         <li><a href="#add">Atomic action: Add</a></li>
@@ -1428,6 +1736,19 @@
         </div>
 
       </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3">BibTeX</h2>
+      <pre><code>@article{lan2025guiding,
+  title={Guiding audio editing with audio language model},
+  author={Lan, Zitong and Hao, Yiduo and Zhao, Mingmin},
+  journal={arXiv preprint arXiv:2509.21625},
+  year={2025}
+}
+</code></pre>
+    </div>
   </section>
 
 
