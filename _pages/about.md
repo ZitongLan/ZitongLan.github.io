@@ -50,8 +50,9 @@ Selected Publications
       <strong>Declarative Audio Editing with Audio Language Model</strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
       <b><i>ICLR</i>'26</b>, <b><i>NeurIPS</i>'25 GenProcc </b> <b><span style="color:red;">Oral</span> </b><br>
-      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>][<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
-        <br><br>
+      [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>]
+      [<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
+      [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]<br>
       <br>
     </p>
   </div>
