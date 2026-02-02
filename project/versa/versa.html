@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <base href="https://zitonglan.github.io/project/versa/">
+  <!-- <base href="https://zitonglan.github.io/project/versa/"> -->
   <meta name="description" content="Resounding Acoustic Fields with Reciprocity">
   <meta property="og:title" content="Versa">
   <meta property="og:description" content="Versa: Resounding Acoustic Fields with Reciprocity">
@@ -125,14 +125,6 @@
     }
   </style>
 
-  <div class="container" style="max-width: 40%;">
-    <div class="columns is-centered">
-      <div style="background-color: #ffffff; padding: 10px; margin-bottom: 10px;">
-        <p style="font-size:20px;"><strong><span style="color:rgb(255, 0, 0);">This site is still under construction,
-              stay tuned!</span></strong>
-      </div>
-    </div>
-  </div>
 
   <br><br><br>
 
@@ -145,7 +137,6 @@
       </div>
     </div>
   </div>
-
   <br>
 
 
@@ -160,6 +151,10 @@
       </iframe>
     </div>
   </div>
+
+  <br> <br>
+  <br>
+
 
   <div class="video-grid">
     <div class="has-text-centered">
@@ -206,6 +201,55 @@
       height: auto;
     }
   </style>
+
+
+  <section id="demos" class="demo-section">
+    <div class="demo-header">
+      <h2>Demos</h2>
+      <p class="demo-subtitle">
+        Compare <b>Vanilla</b>, <b>Versa (Ours)</b>, and <b>GT</b> side-by-side. Use the toggle to switch Ours between
+        ELE and SSL when available.
+      </p>
+
+      <div class="demo-toolbar">
+        <div class="toggle">
+          <span class="toggle-label">Ours variant:</span>
+          <button class="toggle-btn is-active" data-ours="ele">Versa-ELE</button>
+          <button class="toggle-btn" data-ours="ssl">Versa-SSL</button>
+        </div>
+
+        <div class="filters">
+          <label class="filter">
+            <span>Scene</span>
+            <select id="caseFilter">
+              <option value="all">All</option>
+            </select>
+          </label>
+
+          <label class="filter">
+            <span>Scenario</span>
+            <select id="scenarioFilter">
+              <option value="all">All</option>
+            </select>
+          </label>
+
+          <!-- <button id="expandAll" class="ghost-btn">Expand all</button>
+          <button id="collapseAll" class="ghost-btn">Collapse all</button> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-grid">
+      <div class="demo-grid-head">
+        <div class="demo-col label-col"></div>
+        <div class="demo-col">Vanilla</div>
+        <div class="demo-col">Ours</div>
+        <div class="demo-col">GT</div>
+      </div>
+
+      <div id="demoRows" class="demo-rows"></div>
+    </div>
+  </section>
 
 
   <section class="section" id="BibTeX">
