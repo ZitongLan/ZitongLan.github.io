@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- <base href="https://zitonglan.github.io/project/versa/"> -->
+  <base href="https://zitonglan.github.io/project/versa/">
   <meta name="description" content="Resounding Acoustic Fields with Reciprocity">
   <meta property="og:title" content="Versa">
   <meta property="og:description" content="Versa: Resounding Acoustic Fields with Reciprocity">
@@ -45,6 +45,220 @@
   <script src="./static/js/faster.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
+
+<style>
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Three columns */
+    grid-template-rows: repeat(1, 1fr);
+    /* Two rows */
+    gap: 0px 4px;
+    /* Gap between videos */
+    width: 65%;
+    /* Set the container width to 80% */
+    margin: 0 auto;
+    /* Center the container horizontally */
+  }
+
+  .video-grid video {
+    width: 100%;
+    /* Videos fill the container width */
+    height: auto;
+  }
+</style>
+
+<style>
+  .video-grid-two-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    gap: 10px;
+    /* Gap between videos */
+    width: 60%;
+    /* Set the container width to 60% */
+    margin: 0 auto;
+    /* Center the container horizontally */
+  }
+
+  .video-grid-two-cols video {
+    width: 100%;
+    /* Videos fill the container width */
+    height: auto;
+  }
+
+  .interpolation-image {
+    width: 70%;
+    /* Videos fill the container width */
+    height: auto;
+  }
+</style>
+
+
+<style>
+  /* Section spacing */
+  .section-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .section-subtitle {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+  }
+
+  /* Video wrapper */
+  .yt-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .yt-iframe-box {
+    position: relative;
+    width: min(980px, 100%);
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    background: #000;
+  }
+
+  .yt-iframe-box iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* TLDR callout */
+  .tldr-box {
+    background: #f9f9f9;
+    border-left: 4px solid #3273dc;
+    padding: 14px 16px;
+    border-radius: 12px;
+    margin: 20px auto 0;
+    width: min(980px, 100%);
+  }
+
+  .tldr-box p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  /* Method layout */
+  .method-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 28px;
+    align-items: start;
+    margin-top: 18px;
+  }
+
+  .method-figure {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 14px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  .method-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .method-text {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .method-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .method-text ul {
+    margin-left: 18px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  /* ELE/SSL cards */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    margin-top: 24px;
+  }
+
+  .method-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  }
+
+  .method-card h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .method-card p {
+    margin: 0 0 12px;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .method-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    display: block;
+  }
+
+  .caption {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .method-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cards-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tldr-box p {
+      font-size: 18px;
+    }
+  }
+</style>
+
 
 <body>
   <section class="hero">
@@ -103,32 +317,10 @@
   </section>
 
 
-  <style>
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      /* Three columns */
-      grid-template-rows: repeat(1, 1fr);
-      /* Two rows */
-      gap: 0px 4px;
-      /* Gap between videos */
-      width: 65%;
-      /* Set the container width to 80% */
-      margin: 0 auto;
-      /* Center the container horizontally */
-    }
-
-    .video-grid video {
-      width: 100%;
-      /* Videos fill the container width */
-      height: auto;
-    }
-  </style>
-
 
   <br><br><br>
 
-  <div class="container" style="max-width: 40%;">
+  <!-- <div class="container" style="max-width: 40%;">
     <div class="columns is-centered">
       <div style="background-color: #f9f9f9; border-left: 2px solid #3273dc; padding: 10px; margin-bottom: 10px;">
         <p style="font-size:20px;"><strong>TL;DR:</strong> We propose <b>Versa</b>, a reciprocity-guided framework for
@@ -175,32 +367,113 @@
     </div>
   </div>
 
+  <div class="content has-text-justified" style="width:70%; margin: 0 auto;">
+    <p style="font-size:20px;">
+      <strong>Resounding.</strong>
+      Given only a few measured emitters, we want to synthesize room impulse responses at arbitrary new source locations
+      — analogous to <em>relighting</em> in graphics.
+      However, sparse emitters make learning physically consistent acoustic fields extremely challenging.
+    </p>
+  </div>
+ -->
 
-  <style>
-    .video-grid-two-cols {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      /* Two columns */
-      gap: 10px;
-      /* Gap between videos */
-      width: 60%;
-      /* Set the container width to 60% */
-      margin: 0 auto;
-      /* Center the container horizontally */
-    }
+  <section class="section-wrap" id="presentation">
+    <div class="has-text-centered">
+      <h2 class="title is-3 section-title">Project Presentation</h2>
+      <p class="section-subtitle">
+        A quick overview of the key idea: <b>acoustic reciprocity</b> as supervision for learning physically consistent
+        acoustic fields under sparse emitter configurations.
+      </p>
+    </div>
 
-    .video-grid-two-cols video {
-      width: 100%;
-      /* Videos fill the container width */
-      height: auto;
-    }
+    <div class="yt-wrap">
+      <div class="yt-iframe-box">
+        <iframe src="https://www.youtube.com/embed/Zu1JsYG_k5E" title="Versa Project Presentation"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
 
-    .interpolation-image {
-      width: 70%;
-      /* Videos fill the container width */
-      height: auto;
-    }
-  </style>
+    <div class="tldr-box">
+      <p>
+        <strong>TL;DR:</strong> We propose <b>Versa</b>, a reciprocity-guided framework for resounding.
+        Versa leverages physical wave symmetry to learn <b>physically consistent</b> acoustic fields even with
+        <b>sparse emitters</b>.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ===== Method ===== -->
+  <section class="section-wrap" id="method">
+    <div class="has-text-centered">
+      <h2 class="title is-3 section-title">Method</h2>
+      <p class="section-subtitle">
+        Versa turns <b>reciprocity</b> into supervision: swapping emitter ↔ listener provides physically grounded
+        training
+        signals to improve generalization when emitter coverage is sparse.
+      </p>
+    </div>
+
+    <!-- Overview figure + explanation -->
+    <div class="method-grid">
+      <div class="method-figure">
+        <img src="./static/images/reciprocity.png" alt="Versa method overview figure">
+        <div class="caption">
+          <b>Reciprocity principle.</b> Swapping emitter and listener positions leaves the acoustic response unchanged.
+        </div>
+      </div>
+
+      <div class="method-text">
+        <p>
+          <b>Problem (Resounding).</b> We want to synthesize impulse responses at new source positions, even when only a
+          few
+          emitters are observed during training. Naïvely training on sparse emitters often leads to physically
+          inconsistent
+          fields and poor generalization.
+        </p>
+
+        <p>
+          <b>Key insight: Acoustic reciprocity.</b> The propagation path is symmetric under swapping emitter and
+          listener.
+          This symmetry lets us “relabel” dense microphones as virtual emitters and generate additional supervisory
+          signals.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- ELE / SSL detail cards -->
+    <div class="cards-grid">
+      <div class="method-card">
+        <h3>Versa-ELE: Emitter–Listener Exchange</h3>
+        <p>
+          Create physically valid virtual emitters by swapping emitter and listener poses. This transforms sparse
+          emitter coverage into denser supervision for training.
+        </p>
+        <img src="./static/images/versa_ele.png" alt="Versa-ELE figure">
+        <div class="caption">
+          <b>Versa-ELE.</b> Exchange emitter and listener poses to generate physically consistent pseudo-labels.
+        </div>
+      </div>
+
+      <div class="method-card">
+        <h3>Versa-SSL: Reciprocity Self-Supervision</h3>
+        <p>
+          When emitter/listener gain patterns break naïve symmetry, Versa-SSL aligns gain effects and enforces
+          reciprocity
+          consistency, enabling stable learning under real hardware differences.
+        </p>
+        <img src="./static/images/versa_ssl.png" alt="Versa-SSL figure">
+        <div class="caption">
+          <b>Versa-SSL.</b> Reciprocity-based self-supervision that remains valid under asymmetric gain patterns.
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
 
   <section id="demos" class="demo-section">
