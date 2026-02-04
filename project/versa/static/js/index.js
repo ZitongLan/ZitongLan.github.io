@@ -1,23 +1,5 @@
 window.HELP_IMPROVE_VIDEOJS = false;
 
-// var INTERP_BASE = "https://homes.cs.washington.edu/~kpar/nerfies/interpolation/stacked";
-// var NUM_INTERP_FRAMES = 240;
-
-// var interp_images = [];
-// function preloadInterpolationImages() {
-//   for (var i = 0; i < NUM_INTERP_FRAMES; i++) {
-//     var path = INTERP_BASE + '/' + String(i).padStart(6, '0') + '.jpg';
-//     interp_images[i] = new Image();
-//     interp_images[i].src = path;
-//   }
-// }
-
-// function setInterpolationImage(i) {
-//   var image = interp_images[i];
-//   image.ondragstart = function() { return false; };
-//   image.oncontextmenu = function() { return false; };
-//   $('#interpolation-image-wrapper').empty().append(image);
-// }
 
 $(document).ready(function () {
   // Check for click events on the navbar burger icon
@@ -106,7 +88,7 @@ const VIDEO_FILES = [
   "combined_rs_tx_rotation2_gt.mp4",
 ];
 
-const BASE = "./static/videos/";
+const BASE = "https://zitonglan.github.io/project/versa/static/videos/";
 
 // global state
 let oursMode = "ele"; // or "ssl"
@@ -351,13 +333,6 @@ function initToggle() {
   });
 }
 
-// init
-// (function boot() {
-//   GLOBAL = buildIndex(VIDEO_FILES);
-//   fillFilters(GLOBAL.cases, GLOBAL.scenarios);
-//   initToggle();
-//   render();
-// })();
 
 document.addEventListener("DOMContentLoaded", () => {
   GLOBAL = buildIndex(VIDEO_FILES);

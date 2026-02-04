@@ -11,7 +11,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
-    I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> where I work with Mingmin Zhao. Currently I am working on <b>audio</b> related topics, especially about audio generations/editing, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
+    I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> and work with Mingmin Zhao. Currently I am working on <b>audio</b> related topics, especially about audio generations/editing, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
     I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical Engineering with honor. In the past, I am very fortunate to work with Prof. Tengxiang Zhang, Fusang Zhang, Jie Xiong and Yang Zhang.
     </p>
     <div class="link-container">
@@ -58,6 +58,7 @@ Selected Publications
   </div>
 </div>
 <br>
+<br>
 
   <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -74,7 +75,7 @@ Selected Publications
     </div>
   </div>
   <br>
-
+<br>
 
 
 <div style="display: flex; align-items: center;">
