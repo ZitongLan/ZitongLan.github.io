@@ -334,9 +334,24 @@ function initToggle() {
 }
 
 
-document.addEventListener("DOMContentLoaded", () => {
+// document.addEventListener("DOMContentLoaded", () => {
+//   GLOBAL = buildIndex(VIDEO_FILES);
+//   fillFilters(GLOBAL.cases, GLOBAL.scenarios);
+//   initToggle();
+//   render();
+// });
+
+// Wrap everything in a function we can call manually
+function initProjectPage() {
   GLOBAL = buildIndex(VIDEO_FILES);
   fillFilters(GLOBAL.cases, GLOBAL.scenarios);
   initToggle();
   render();
-});
+}
+
+// Keep this for local dev, but we will also call it manually
+if (document.readyState === "complete" || document.readyState === "interactive") {
+    initProjectPage();
+} else {
+    document.addEventListener("DOMContentLoaded", initProjectPage);
+}
