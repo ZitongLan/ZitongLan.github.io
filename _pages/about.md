@@ -47,7 +47,7 @@ Selected Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>Declarative Audio Editing with Audio Language Model</strong><br>
+      <strong><a href="https://arxiv.org/abs/2509.21625">Declarative Audio Editing with Audio Language Model</a></strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
       <b><i>ICLR</i>'26</b>, <b><i>NeurIPS</i>'25 GenProcc </b> <b><span style="color:red;">Oral</span> </b><br>
       [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>]
@@ -65,7 +65,7 @@ Selected Publications
     </div>
     <div style="flex: 2; padding-left: 20px;">
       <p>
-        <strong>Building Audio-Visual Digital Twins with Smartphones</strong><br>
+        <strong><a href="https://arxiv.org/abs/2512.10778">Building Audio-Visual Digital Twins with Smartphones</a></strong><br>
         <strong>Zitong Lan et. al.</strong>, <br>
         <b>Submitted to Mobisys'26</b><br>
         [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>]
@@ -83,13 +83,14 @@ Selected Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>Resounding Acoustic Fields with Reciprocity</strong><br>
+      <strong><a href="https://arxiv.org/pdf/2510.20602">Resounding Acoustic Fields with Reciprocity</a></strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
       [<strong><a href="https://arxiv.org/abs/2510.20602">Paper</a></strong>][<strong><a href="../project/versa/versa.html">Project page</a></strong>]
     </p>
   </div>
 </div>
+<br>
 <br>
 
 
@@ -99,14 +100,15 @@ Selected Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong>Non-Line-of-Sight 3D Reconstruction with Radar</strong><br>
+      <strong><a href="https://openreview.net/pdf?id=f4Wd385vHi">Non-Line-of-Sight 3D Reconstruction with Radar</a></strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <b><i>NeurIPS</i>'25 </b> <br>
       [<strong><a href="https://openreview.net/forum?id=f4Wd385vHi">Paper</a></strong>][<strong><a href="https://waves.seas.upenn.edu/projects/holoradar/">Project page</a></strong>]
     </p>
   </div>
 </div>
-<br>
+<br><br>
+
 
 
 <div style="display: flex; align-items: center;">
@@ -124,6 +126,7 @@ Selected Publications
 </div>
 <br>
 
+<br>
 
 
 <div style="display: flex; align-items: center;">
@@ -140,6 +143,7 @@ Selected Publications
   </div>
 </div>
 <br>
+<br>
 
 
 <div style="display: flex; align-items: center;">
@@ -155,6 +159,7 @@ Selected Publications
     </p>
   </div>
 </div>
+<br>
 <br>
 
 <div style="display: flex; align-items: center;">

@@ -1,5 +1,3 @@
-console.log("[Versa demos] index.js loaded");
-
 window.HELP_IMPROVE_VIDEOJS = false;
 
 // var INTERP_BASE = "https://homes.cs.washington.edu/~kpar/nerfies/interpolation/stacked";
