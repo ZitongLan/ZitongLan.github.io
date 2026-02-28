@@ -31,6 +31,7 @@ redirect_from:
 
 News
 =====
+* (2/2026) Two papers are conditionally accepted by Mobisys'26. (i) <strong><a href="https://arxiv.org/abs/2512.10778">AV-Twin</a></strong> introduces a complete framework to capture and reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a mathmatical connection between high-resolution radar signal and surface properties including permittivity and surface roughness. 
 * (1/2026) Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by ICLR'26!!! See you in Brazil!
 * (11/2025) <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by NeurIPS'25 GenProCC workshop with Oral presentation, see you in San Diego! 
 * (09/2025) Two papers are accepted at NeurIPS'25 main conference. (i) <strong><a href="https://arxiv.org/abs/2509.21625">Versa</a></strong> introduces a learning strategy inspired by the reciprocity principle for acoustic field training. (ii) <strong><a href="https://openreview.net/forum?id=f4Wd385vHi">HoloRadar</a></strong> leverages wall reflections to image the hidden people and object around the corner. 
@@ -41,13 +42,31 @@ Selected Publications
 =====
 ---
 
+  <div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>
+        <strong><a href="https://arxiv.org/abs/2512.10778">Building Audio-Visual Digital Twins with Smartphones</a></strong><br>
+        <strong>Zitong Lan</strong>, Yiwei Tang, Yuhan Wang, Haowen Lai, Yiduo Hao, Mingmin Zhao<br>
+        <b>To appear at Mobisys'26</b><br>
+        [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>][<strong><a href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
+        <br>
+      </p>
+    </div>
+  </div>
+
+<br>
+<br>
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="https://arxiv.org/abs/2509.21625">Declarative Audio Editing with Audio Language Model</a></strong><br>
+      <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ: Declarative Audio Editing with Audio Language Model</a></strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
       <b><i>ICLR</i>'26</b>, <b><i>NeurIPS</i>'25 GenProcc </b> <b><span style="color:red;">Oral</span> </b><br>
       [<strong><a href="https://arxiv.org/abs/2509.21625">Paper</a></strong>]
@@ -57,25 +76,25 @@ Selected Publications
     </p>
   </div>
 </div>
+
 <br>
 <br>
 
+
   <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
-      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+      <img src="../images/surfradar_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
     </div>
     <div style="flex: 2; padding-left: 20px;">
       <p>
-        <strong><a href="https://arxiv.org/abs/2512.10778">Building Audio-Visual Digital Twins with Smartphones</a></strong><br>
-        <strong>Zitong Lan et. al.</strong>, <br>
-        <b>Submitted to Mobisys'26</b><br>
-        [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>]
+        <strong><a href="https://arxiv.org/abs/2512.10778">Surface Characterization with mmWave Signals</a></strong><br>
+        Haowen Lai, <strong>Zitong Lan</strong>, Dongyin Hu, Mingmin Zhao<br>
+        <b>To appear at Mobisys'26</b><br>
         <br>
       </p>
     </div>
   </div>
-  <br>
-<br>
+  
 
 
 <div style="display: flex; align-items: center;">
