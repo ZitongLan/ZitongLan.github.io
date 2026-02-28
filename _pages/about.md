@@ -57,8 +57,6 @@ Selected Publications
     </div>
   </div>
 
-<br>
-<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -76,10 +74,6 @@ Selected Publications
     </p>
   </div>
 </div>
-
-<br>
-<br>
-
 
   <div style="display: flex; align-items: center;">
     <div style="flex: 1;">
@@ -144,10 +138,6 @@ Selected Publications
     </p>
   </div>
 </div>
-<br>
-
-<br>
-
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -162,9 +152,6 @@ Selected Publications
     </p>
   </div>
 </div>
-<br>
-<br>
-
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -179,8 +166,6 @@ Selected Publications
     </p>
   </div>
 </div>
-<br>
-<br>
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
@@ -195,7 +180,6 @@ Selected Publications
     </p>
   </div>
 </div>
-<br>
 
 
 <!-- <div style="display: flex; align-items: center;">
