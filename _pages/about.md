@@ -12,9 +12,9 @@ redirect_from:
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
       I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
-      and work with Mingmin Zhao. Currently I am working on <b>audio</b> related topics, especially about audio
-      generations/editing, audio language model and acoustic field modeling. Feel free to drop me an email if you are
-      interested in my research for collaborations!
+      and work with Mingmin Zhao. Currently I work on multimodal learning, especially focusing on audio/speech/acoustic. I have worked on audio generation, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
+      <br>
+      <br>
       I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical
       Engineering with honor. In the past, I am very fortunate to work with Prof. Tengxiang Zhang, Fusang Zhang, Jie
       Xiong and Yang Zhang.
@@ -55,12 +55,14 @@ hidden people and object around the corner.
 NeurIPS'24 with **Spotlight**!
 * **2023-09**: I start my PhD journey at Upenn.
 
+<br>
+
+
 Selected Publications
 =====
----
 
 <div style="
-  background-color: #f5f5f5;
+  background-color: #f3ecd2;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -88,6 +90,14 @@ Selected Publications
 
 <br>
 
+<div style="
+  background-color: #f3ecd2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+">
+
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
@@ -105,6 +115,7 @@ Selected Publications
       <br>
     </p>
   </div>
+</div>
 </div>
 
 <br>
@@ -125,7 +136,13 @@ Selected Publications
 
 <br>
 
-
+<div style="
+  background-color: #f3ecd2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/reciprocity_teaser.png" alt="" style="max-width: 100%; height: auto;">
@@ -140,6 +157,8 @@ Selected Publications
     </p>
   </div>
 </div>
+</div>
+
 <br>
 
 
@@ -161,7 +180,13 @@ Selected Publications
 
 <br>
 
-
+<div style="
+  background-color: #f3ecd2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/anerf_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
@@ -171,13 +196,14 @@ Selected Publications
       <strong><a href="https://zitonglan.github.io/project/avr/avr.html">Acousitc Volume Rendering for Neural Impulse
           Response Field</a></strong><br>
       <strong>Zitong Lan</strong>, Chenhao Zheng, Zhiwei Zheng, Mingmin Zhao<br>
-      <i>NeurIPS</i>, 2024 (<span style="color:red;"> Spotlight</span>)<br>
+      <i>NeurIPS</i>, 2024 (<span style="color:red;">Spotlight</span>)<br>
       [<strong><a href="https://arxiv.org/abs/2411.06307">Paper</a></strong>][<strong><a
           href="../project/avr/avr.html">Project page</a></strong>][<strong><a
           href="https://github.com/penn-waves-lab/AVR">AVR code</a></strong>][<strong><a
           href="https://github.com/penn-waves-lab/AcoustiX">AcoustiX code</a></strong>]
     </p>
   </div>
+</div>
 </div>
 
 <br>
@@ -250,20 +276,19 @@ Selected Publications
 </div>
 <br> -->
 
+<br>
+
 Experience
 ======
----
 * <b>Aug. 2023 - Now</b>: Research Assistant, [ESE of University of Pennsylvania](https://www.ese.upenn.edu/)
-* <b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software, Chinese Academy of
-Sciences](http://english.is.cas.cn/)
+* <b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software, Chinese Academy of Sciences](http://english.is.cas.cn/)
 * <b>Oct. 2022 - Jan. 2023</b>: Research Intern, [University of Los Angeles](https://www.ee.ucla.edu/)
-* <b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology, Chinese Academy of
-Sciences](http://english.ict.cas.cn/)
+* <b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology, Chinese Academy of Sciences](http://english.ict.cas.cn/)
+
 <br>
 
 Awards
 =====
----
 * 2025 NeurIPS top reviewer, CVPR distinguished reviewer.
 * 2024 NeurIPS travel grant.
 * 2023 Howard Broadwell Fellow from Upenn.
@@ -275,5 +300,7 @@ Awards
 Beyond Research...
 ====
 🏃‍♂️ Running | 🏊 Swimming | 🎾 Tennis | ⚽ Soccer | 🏸 Badminton
+
 🍣 Food | 🌱 Plants | 🎬 Movies | 🎹 Piano
+
 🇯🇵 Studying Japanese — こんにちは！
