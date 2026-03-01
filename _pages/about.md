@@ -62,7 +62,7 @@ Selected Publications
 =====
 
 <div style="
-  background-color: #fff6d4;
+  background-color: #fff8e0;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -91,7 +91,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #fff6d4;
+  background-color: #fff8e0;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -136,7 +136,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #fff6d4;
+  background-color: #fff8e0;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -180,7 +180,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #fff6d4;
+  background-color: #fff8e0;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
