@@ -62,7 +62,7 @@ Selected Publications
 =====
 
 <div style="
-  background-color: #f3ecd2;
+  background-color: #fff6d4;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -91,7 +91,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #f3ecd2;
+  background-color: #fff6d4;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -111,8 +111,7 @@ Selected Publications
       <i>NeurIPS GenProcc</i>, 2025 (<span style="color:red;">Oral</span>) <br>
       [<strong><a href="https://openreview.net/pdf?id=eNmANCkefl">Paper</a></strong>]
       [<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
-      [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]<br>
-      <br>
+      [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]
     </p>
   </div>
 </div>
@@ -137,7 +136,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #f3ecd2;
+  background-color: #fff6d4;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -181,7 +180,7 @@ Selected Publications
 <br>
 
 <div style="
-  background-color: #f3ecd2;
+  background-color: #fff6d4;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -296,11 +295,12 @@ Awards
 * 2021 University Scholarship in Southeast University. (2%)
 * 2020 IEEE CASS Student Design World Winner. (1st)
 
+<br>
 
 Beyond Research...
 ====
 🏃‍♂️ Running | 🏊 Swimming | 🎾 Tennis | ⚽ Soccer | 🏸 Badminton
-
+<br>
 🍣 Food | 🌱 Plants | 🎬 Movies | 🎹 Piano
-
+<br>
 🇯🇵 Studying Japanese — こんにちは！
