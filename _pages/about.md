@@ -36,6 +36,7 @@ redirect_from:
 
 News
 =====
+* **2026-03**: I will join Micrsoft as a Research Intern on 2026 Summer at Seattle. Connect if you are around!
 * **2026-02**: Two papers are conditionally accepted by Mobisys'26. (i) <strong><a
     href="https://arxiv.org/abs/2512.10778">AV-Twin</a></strong> introduces a complete framework to capture and
 reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a
