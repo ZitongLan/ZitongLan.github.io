@@ -1,0 +1,457 @@
+/* ===================================================================
+   Custom Design Enhancements
+   Vibrant, modern, creative styling
+   ================================================================== */
+
+:root {
+    --primary-accent: #6366f1;
+    /* Indigo */
+    --secondary-accent: #ec4899;
+    /* Pink */
+    --tertiary-accent: #14b8a6;
+    /* Teal */
+    --dark-bg: #0f172a;
+    /* Dark slate */
+    --light-bg: #f8fafc;
+    /* Light slate */
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+}
+
+/* ===================================================================
+   Typography & General Styling
+   ================================================================== */
+
+body {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    color: var(--text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--dark-bg);
+    letter-spacing: -0.5px;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+a {
+    color: var(--primary-accent);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--secondary-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+/* ===================================================================
+   Content Width Constraining
+   ================================================================== */
+
+.page__content {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Override theme column sizing so pages can be truly wide. */
+.page {
+    width: 100% !important;
+    max-width: none !important;
+    float: none !important;
+}
+
+.page .page__inner-wrap {
+    width: 100% !important;
+}
+
+@media (min-width: 1500px) {
+    #main {
+        max-width: min(96vw, 1900px);
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+/* Hero Section (About/Profile Section) */
+
+.author__name {
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, var(--primary-accent), var(--secondary-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Hero container with modern layout */
+div[style*="display: flex"][style*="align-items: center"] {
+    background: white;
+    border-radius: 16px;
+    padding: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    border: 1px solid var(--border-color);
+    margin-bottom: 3rem;
+    animation: slideUp 0.6s ease-out;
+    max-width: 100%;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Profile image styling */
+div[style*="flex: 1"][style*="text-align: center"] img {
+    border-radius: 12px;
+    border: 3px solid var(--primary-accent);
+    box-shadow: 0 20px 25px rgba(99, 102, 241, 0.15);
+    transition: all 0.4s ease;
+}
+
+div[style*="flex: 1"][style*="text-align: center"] img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 35px rgba(99, 102, 241, 0.25);
+}
+
+/* Bio text styling */
+div[style*="flex: 2"] {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.03), rgba(236, 72, 153, 0.03));
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+div[style*="flex: 2"] p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+}
+
+.research-highlight {
+    margin: 0.25rem 0 1.25rem;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    background: rgba(20, 184, 166, 0.08);
+    border: 1px solid rgba(20, 184, 166, 0.25);
+}
+
+.research-highlight strong {
+    color: var(--dark-bg);
+}
+
+.research-tag {
+    display: inline-block;
+    margin: 0.35rem 0.35rem 0 0;
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* ===================================================================
+   Link Container Styling
+   ================================================================== */
+
+.link-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.link-container a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    background: var(--primary-accent);
+    color: white !important;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+}
+
+.link-container a:hover {
+    background: var(--secondary-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+.link-container a:nth-child(2) {
+    background: var(--tertiary-accent);
+    box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+}
+
+.link-container a:nth-child(2):hover {
+    background: #0d9488;
+}
+
+.link-container a:nth-child(3) {
+    background: linear-gradient(135deg, var(--secondary-accent), #f43f5e);
+}
+
+/* ===================================================================
+   News Section
+   ================================================================== */
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--primary-accent);
+    display: inline-block;
+}
+
+/* News items styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul>li {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 12px;
+    border-left: 4px solid var(--tertiary-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.5s ease-out backwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+ul>li:nth-child(1) {
+    animation-delay: 0.1s;
+    border-left-color: var(--primary-accent);
+}
+
+ul>li:nth-child(2) {
+    animation-delay: 0.2s;
+    border-left-color: var(--secondary-accent);
+}
+
+ul>li:nth-child(3) {
+    animation-delay: 0.3s;
+    border-left-color: var(--tertiary-accent);
+}
+
+ul>li:nth-child(4) {
+    animation-delay: 0.4s;
+    border-left-color: var(--primary-accent);
+}
+
+ul>li:nth-child(5) {
+    animation-delay: 0.5s;
+    border-left-color: var(--secondary-accent);
+}
+
+ul>li:nth-child(n+6) {
+    animation-delay: 0.6s;
+    border-left-color: var(--tertiary-accent);
+}
+
+ul>li:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+ul>li strong {
+    color: var(--dark-bg);
+    font-weight: 700;
+}
+
+ul>li strong a {
+    color: var(--primary-accent);
+    font-weight: 700;
+}
+
+ul>li strong a:hover {
+    color: var(--secondary-accent);
+}
+
+/* Date styling in news */
+ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--primary-accent);
+    border-radius: 50%;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+/* ===================================================================
+   Page Container & Content
+   ================================================================== */
+
+.page__content {
+    background: white;
+    border-radius: 12px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ===================================================================
+   Responsive Design
+   ================================================================== */
+
+@media (max-width: 768px) {
+    div[style*="display: flex"][style*="align-items: center"] {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    div[style*="flex: 2"] {
+        padding: 1.5rem;
+    }
+
+    div[style*="flex: 1"][style*="text-align: center"] {
+        margin-top: 1.5rem;
+    }
+
+    .link-container {
+        gap: 0.75rem;
+    }
+
+    .link-container a {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .page__content {
+        padding: 1.5rem;
+    }
+
+    .author__name {
+        font-size: 1.8rem;
+    }
+}
+
+/* ===================================================================
+   Additional Enhanced Elements
+   ================================================================== */
+
+strong {
+    color: var(--dark-bg);
+    font-weight: 700;
+}
+
+code {
+    background: var(--light-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    color: var(--primary-accent);
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+blockquote {
+    border-left: 4px solid var(--primary-accent);
+    padding-left: 1.5rem;
+    margin-left: 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary-accent), var(--secondary-accent), var(--tertiary-accent));
+    margin: 2rem 0;
+}
+
+/* ===================================================================
+   Collapsible/Expandable Sections
+   ================================================================== */
+
+.news-toggle {
+    display: none;
+}
+
+.news-toggle-label {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, var(--primary-accent), var(--secondary-accent));
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.news-toggle-label:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+.news-toggle:checked~.news-toggle-label::before {
+    content: "▼ ";
+}
+
+.news-toggle:not(:checked)~.news-toggle-label::before {
+    content: "▶ ";
+}
+
+.archived-news {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.news-toggle:checked~.archived-news {
+    max-height: 2000px;
+    transition: max-height 0.5s ease-in;
+}

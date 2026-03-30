@@ -10,6 +10,15 @@ redirect_from:
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
+    <h1 class="author__name">Zitong Lan (兰自桐)</h1>
+    <p style="margin-top: -6px; margin-bottom: 16px;"><strong>Ph.D. Student, University of Pennsylvania</strong></p>
+    <div class="research-highlight">
+      <strong>Research Directions:</strong><br>
+      <span class="research-tag">Multimodal Learning</span>
+      <span class="research-tag">Audio and Speech AI</span>
+      <span class="research-tag">Acoustic Field Modeling</span>
+      <span class="research-tag">Audio Generation and Editing</span>
+    </div>
     <p>
       I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
       and work with <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. Currently I work on multimodal learning, especially focusing on audio/speech/acoustic. I have worked on audio generation, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
@@ -22,7 +31,7 @@ redirect_from:
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
       <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
-      <a href="http://zitonglan.github.io/files/CV_zitonglan.pdf">CV</a>
+      <a href="./files/CV_zitonglan.pdf">CV</a>
     </div>
   </div>
   <div style="flex: 1; text-align: center;">
@@ -71,7 +80,7 @@ Selected Publications
 
   <div style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
-      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
     </div>
     <div style="flex: 2; padding-left: 20px;">
       <p>
@@ -99,7 +108,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -120,7 +129,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/surfradar_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    <img src="../images/surfradar_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -143,7 +152,7 @@ Selected Publications
 ">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/reciprocity_teaser.png" alt="" style="max-width: 100%; height: auto;">
+    <img src="../images/versa-concept.jpg" alt="" style="max-width: 80%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -162,7 +171,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/holoradar_teaser.png" alt="" style="max-width: 100%; height: auto;">
+    <img src="../images/holoradar_teaser.png" alt="" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -187,7 +196,7 @@ Selected Publications
 ">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/anerf_teaser.png" alt="avr" style="max-width: 100%; height: auto;">
+    <img src="../images/anerf_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -208,7 +217,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 100%; height: auto;">
+    <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -226,7 +235,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 100%; height: auto;">
+    <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -244,7 +253,7 @@ Selected Publications
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 100%; height: auto;">
+    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 90%; height: auto;">
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
@@ -278,21 +287,21 @@ Selected Publications
 
 Experience
 ======
-* <b>Aug. 2023 - Now</b>: Research Assistant, [ESE of University of Pennsylvania](https://www.ese.upenn.edu/)
-* <b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software, Chinese Academy of Sciences](http://english.is.cas.cn/)
-* <b>Oct. 2022 - Jan. 2023</b>: Research Intern, [University of Los Angeles](https://www.ee.ucla.edu/)
-* <b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology, Chinese Academy of Sciences](http://english.ict.cas.cn/)
+<b>Aug. 2023 - Now</b>: Research Assistant, [ESE of University of Pennsylvania](https://www.ese.upenn.edu/)<br>
+<b>Aug. 2022 - May. 2023</b>: Research Assistant, [Institute of Software, Chinese Academy of Sciences](http://english.is.cas.cn/)<br>
+<b>Oct. 2022 - Jan. 2023</b>: Research Intern, [University of Los Angeles](https://www.ee.ucla.edu/)<br>
+<b>May. 2021 - Aug. 2022</b>: Research Intern, [Institute of Computing Technology, Chinese Academy of Sciences](http://english.ict.cas.cn/)
 
 <br>
 
 Awards
 =====
-* 2025 NeurIPS top reviewer, CVPR distinguished reviewer.
-* 2024 NeurIPS travel grant.
-* 2023 Howard Broadwell Fellow from Upenn.
-* 2023 Outstanding Graduates in Southeast University. (5%)
-* 2021 University Scholarship in Southeast University. (2%)
-* 2020 IEEE CASS Student Design World Winner. (1st)
+2025 NeurIPS top reviewer, CVPR distinguished reviewer.<br>
+2024 NeurIPS travel grant.<br>
+2023 Howard Broadwell Fellow from Upenn.<br>
+2023 Outstanding Graduates in Southeast University. (5%)<br>
+2021 University Scholarship in Southeast University. (2%)<br>
+2020 IEEE CASS Student Design World Winner. (1st)
 
 <br>
 
