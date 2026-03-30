@@ -12,11 +12,11 @@ redirect_from:
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <p>
       I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
-      and work with Mingmin Zhao. Currently I work on multimodal learning, especially focusing on audio/speech/acoustic. I have worked on audio generation, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
+      and work with <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. Currently I work on multimodal learning, especially focusing on audio/speech/acoustic. I have worked on audio generation, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
       <br>
       <br>
       I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical
-      Engineering with honor. In the past, I am very fortunate to work with Prof. Tengxiang Zhang, Fusang Zhang, Jie
+      Engineering with honor. In the past, I am very fortunate to have worked with Prof. Tengxiang Zhang, Fusang Zhang, Jie
       Xiong and Yang Zhang.
     </p>
     <div class="link-container">
@@ -31,12 +31,10 @@ redirect_from:
 </div>
 <br>
 
-<!-- <span style="color:red;">I am actively looking for a 2026 summer internship position. I am interested in multimodal understanding and generation! Please reach out to me if there is a good fit.</span> -->
-
 
 News
 =====
-* **2026-03**: I will join Micrsoft as a Research Intern on 2026 Summer at Seattle. Connect if you are around!
+* **2026-03**: I will join Micrsoft as a Research Intern on 2026 Summer at Seattle Redmond. Connect if you are around!
 * **2026-02**: Two papers are conditionally accepted by Mobisys'26. (i) <strong><a
     href="https://arxiv.org/abs/2512.10778">AV-Twin</a></strong> introduces a complete framework to capture and
 reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a
@@ -298,10 +296,17 @@ Awards
 
 <br>
 
+Services
+====
+Reviewers for NeurIPS (2025, 2026), ICML (2026), ICLR (2026), CVPR (2025), TASLP, TVCG
+
+
+<br>
+
 Beyond Research...
 ====
-🏃‍♂️ Running | 🏊 Swimming | 🎾 Tennis | ⚽ Soccer | 🏸 Badminton
+🎾 Tennis | 🏃‍♂️ Running | 🏊 Swimming | ⚽ Soccer | 🏸 Badminton
 <br>
-🍣 Food | 🌱 Plants | 🎬 Movies | 🎹 Piano
+🍣 Food | 🎬 Movies | 🎹 Piano | 🌱 Plants 
 <br>
 🇯🇵 Studying Japanese — こんにちは！
