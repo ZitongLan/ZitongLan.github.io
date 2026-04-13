@@ -15,9 +15,7 @@ redirect_from:
     <div class="research-highlight">
       <strong>Research Directions:</strong><br>
       <span class="research-tag">Multimodal Learning</span>
-      <span class="research-tag">Audio and Speech AI</span>
-      <span class="research-tag">Acoustic Field Modeling</span>
-      <span class="research-tag">Audio Generation and Editing</span>
+      <span class="research-tag">Audio/Speech</span>
     </div>
     <p>
       I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
@@ -69,15 +67,7 @@ NeurIPS'24 with **Spotlight**!
 Selected Publications
 =====
 
-<div style="
-  background-color: #fff8e0;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-">
-
-
+<div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
   <div style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
       <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
@@ -90,22 +80,12 @@ Selected Publications
         To appear at <i>Mobisys</i>, 2026<br>
         [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>][<strong><a
             href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
-        <br>
       </p>
     </div>
   </div>
 </div>
 
-<br>
-
-<div style="
-  background-color: #fff8e0;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-">
-
+<div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/smartdj_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
@@ -125,9 +105,7 @@ Selected Publications
 </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/surfradar_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
   </div>
@@ -135,21 +113,12 @@ Selected Publications
     <p>
       <strong><a href="">Surface Characterization with mmWave Signals</a></strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Dongyin Hu, Mingmin Zhao<br>
-      To appear at <i>Mobisys</i>, 2026<br>
-      <br>
+      To appear at <i>Mobisys</i>, 2026
     </p>
   </div>
 </div>
 
-<br>
-
-<div style="
-  background-color: #fff8e0;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-">
+<div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/versa-concept.jpg" alt="" style="max-width: 80%; height: auto;">
@@ -166,10 +135,7 @@ Selected Publications
 </div>
 </div>
 
-<br>
-
-
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/holoradar_teaser.png" alt="" style="max-width: 90%; height: auto;">
   </div>
@@ -185,15 +151,7 @@ Selected Publications
   </div>
 </div>
 
-<br>
-
-<div style="
-  background-color: #fff8e0;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-">
+<div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
     <img src="../images/anerf_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
@@ -213,9 +171,7 @@ Selected Publications
 </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/quantum.png" alt="Quantum Wireless Sensing" style="max-width: 90%; height: auto;">
   </div>
@@ -231,9 +187,7 @@ Selected Publications
   </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 90%; height: auto;">
   </div>
@@ -249,9 +203,7 @@ Selected Publications
   </div>
 </div>
 
-<br>
-
-<div style="display: flex; align-items: flex-start;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 90%; height: auto;">
   </div>
