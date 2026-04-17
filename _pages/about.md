@@ -77,7 +77,7 @@ Selected Publications
         <strong><a href="https://arxiv.org/abs/2512.10778">Building Audio-Visual Digital Twins with
             Smartphones</a></strong><br>
         <strong>Zitong Lan</strong>, Yiwei Tang, Yuhan Wang, Haowen Lai, Yiduo Hao, Mingmin Zhao<br>
-        To appear at <i>Mobisys</i>, 2026<br>
+        <i>Mobisys</i>, 2026<br>
         [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>][<strong><a
             href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
       </p>
@@ -113,7 +113,7 @@ Selected Publications
     <p>
       <strong><a href="">Surface Characterization with mmWave Signals</a></strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Dongyin Hu, Mingmin Zhao<br>
-      To appear at <i>Mobisys</i>, 2026
+      <i>Mobisys</i>, 2026
     </p>
   </div>
 </div>
