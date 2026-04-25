@@ -47,10 +47,7 @@ News
 reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a
 mathmatical connection between high-resolution radar signal and surface properties including permittivity and surface
 roughness.
-* **2026-01**: Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by
-ICLR'26!!! See you in Brazil!
-* **2025-11**: <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> is accepted by NeurIPS'25
-GenProCC workshop with Oral presentation, see you in San Diego!
+* **2026-01**: Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> accepted by NeurIPS'25 GenProCC workshop with Oral presentation, is accepted by ICLR'26!
 * **2025-09**: Two papers are accepted at NeurIPS'25 main conference. (i) <strong><a
     href="https://arxiv.org/abs/2509.21625">Versa</a></strong> introduces a learning strategy inspired by the
 reciprocity principle for acoustic field training. (ii) <strong><a
@@ -59,7 +56,34 @@ hidden people and object around the corner.
 * **2024-09**: Our work on using Acoustic Volume Rendering (<strong><a
     href="https://arxiv.org/abs/2411.06307">AVR</a></strong>) for neural impulse response field is accepted to
 NeurIPS'24 with **Spotlight**!
-* **2023-09**: I start my PhD journey at Upenn.
+<!-- * **2023-09**: I start my PhD journey at Upenn. -->
+
+<br>
+
+
+Selected Videos
+=====
+
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <p style="margin-bottom: 6px;"><strong>AI model edtis audio automatically</strong></p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+      <iframe src="https://www.youtube.com/embed/zO5eFCHTAxg"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;"></iframe>
+    </div>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <p style="margin-bottom: 6px;"><strong>Superhuman Vision at Radio Frequency</strong></p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+      <iframe src="https://www.youtube.com/embed/x3jx1REd_xM"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;"></iframe>
+    </div>
+  </div>
+</div>
 
 <br>
 
@@ -100,6 +124,9 @@ Selected Publications
       [<strong><a href="https://openreview.net/pdf?id=eNmANCkefl">Paper</a></strong>]
       [<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
       [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]
+      [<strong><a href="https://www.youtube.com/watch?v=zO5eFCHTAxg">Video</a></strong>]
+      [📰 <strong><a href="https://www.seas.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/">SEAS News</a></strong>]
+      [📰 <strong><a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a></strong>]
     </p>
   </div>
 </div>
@@ -145,8 +172,9 @@ Selected Publications
           Radar</a></strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Mingmin Zhao <br>
       <i>NeurIPS</i>, 2025<br>
-      [<strong><a href="https://openreview.net/forum?id=f4Wd385vHi">Paper</a></strong>][<strong><a
-          href="https://waves.seas.upenn.edu/projects/holoradar/">Project page</a></strong>]
+      [<strong><a href="https://openreview.net/forum?id=f4Wd385vHi">Paper</a></strong>]
+      [<strong><a href="https://waves.seas.upenn.edu/projects/holoradar/">Project page</a></strong>]
+      [<strong><a href="https://www.youtube.com/watch?v=x3jx1REd_xM">Video</a></strong>]
     </p>
   </div>
 </div>
