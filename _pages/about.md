@@ -124,9 +124,13 @@ Selected Publications
       [<strong><a href="https://openreview.net/pdf?id=eNmANCkefl">Paper</a></strong>]
       [<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
       [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]
-      [<strong><a href="https://www.youtube.com/watch?v=zO5eFCHTAxg">Video</a></strong>]
-      [📰 <strong><a href="https://www.seas.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/">SEAS News</a></strong>]
-      [📰 <strong><a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a></strong>]
+      [<strong><a href="https://www.youtube.com/watch?v=zO5eFCHTAxg">Video</a></strong>]<br>
+      📰 <strong>News:</strong>
+      <a href="https://www.seas.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/">SEAS</a> ·
+      <a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a> ·
+      <a href="https://www.inavateonthenet.net/news/article/aipowered-editor-allows-the-redesign-immersive-audio-experiences-using-simple-words">Inavate</a> ·
+      <a href="https://techxplore.com/news/2026-04-smartdj-users-reshape-audio-simple.html">TechXplore</a> ·
+      <a href="https://www.techexplorist.com/smartdj-ai-edits-soundscapes-simple-prompts/102775/">Tech Explorist</a>
     </p>
   </div>
 </div>
