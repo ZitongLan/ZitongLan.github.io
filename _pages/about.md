@@ -130,7 +130,9 @@ Selected Publications
       <a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a> ·
       <a href="https://www.inavateonthenet.net/news/article/aipowered-editor-allows-the-redesign-immersive-audio-experiences-using-simple-words">Inavate</a> ·
       <a href="https://techxplore.com/news/2026-04-smartdj-users-reshape-audio-simple.html">TechXplore</a> ·
-      <a href="https://www.techexplorist.com/smartdj-ai-edits-soundscapes-simple-prompts/102775/">Tech Explorist</a>
+      <a href="https://www.techexplorist.com/smartdj-ai-edits-soundscapes-simple-prompts/102775/">Tech Explorist</a> ·
+      <a href="https://thedebrief.org/chat-gpt-of-sound-smartdj-lets-users-customize-their-immersive-sound-environment-with-simple-voice-commands-in-everyday-language/">The Debrief</a> ·
+      <a href="https://www.international-sound-directory.com/2026/04/25/new-ai-tool-lets-anyone-edit-audio-with-simple-text/">International Sound Directory</a>
     </p>
   </div>
 </div>
