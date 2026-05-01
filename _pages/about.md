@@ -41,7 +41,7 @@ redirect_from:
 
 News
 =====
-* **2026-03**: I will join Micrsoft as a Research Intern on 2026 Summer at Seattle Redmond. Connect if you are around!
+* **2026-03**: I will join Microsoft as a Research Intern for 2026 Summer in Redmond. Connect if you are around!
 * **2026-02**: Two papers are conditionally accepted by Mobisys'26. (i) <strong><a
     href="https://arxiv.org/abs/2512.10778">AV-Twin</a></strong> introduces a complete framework to capture and
 reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a
@@ -132,7 +132,8 @@ Selected Publications
       <a href="https://techxplore.com/news/2026-04-smartdj-users-reshape-audio-simple.html">TechXplore</a> ·
       <a href="https://www.techexplorist.com/smartdj-ai-edits-soundscapes-simple-prompts/102775/">Tech Explorist</a> ·
       <a href="https://thedebrief.org/chat-gpt-of-sound-smartdj-lets-users-customize-their-immersive-sound-environment-with-simple-voice-commands-in-everyday-language/">The Debrief</a> ·
-      <a href="https://www.international-sound-directory.com/2026/04/25/new-ai-tool-lets-anyone-edit-audio-with-simple-text/">International Sound Directory</a>
+      <a href="https://www.international-sound-directory.com/2026/04/25/new-ai-tool-lets-anyone-edit-audio-with-simple-text/">International Sound Directory</a>  ·
+      <a href="https://www.msn.com/en-us/news/other/smartdj-debuts-with-ai-powered-natural-language-audio-editing/gm-GM1EA6EF82?ocid=BingNewsVerp">MSN News</a>
     </p>
   </div>
 </div>
