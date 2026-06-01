@@ -126,6 +126,7 @@ Selected Publications
       [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]
       [<strong><a href="https://www.youtube.com/watch?v=zO5eFCHTAxg">Video</a></strong>]<br>
       📰 <strong>News:</strong>
+      <a href="https://penntoday.upenn.edu/news/penn-engineering-smartdj-lets-users-reshape-audio-experiences-simple-words">Penn Today</a> ·
       <a href="https://www.seas.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/">SEAS</a> ·
       <a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a> ·
       <a href="https://www.inavateonthenet.net/news/article/aipowered-editor-allows-the-redesign-immersive-audio-experiences-using-simple-words">Inavate</a> ·
