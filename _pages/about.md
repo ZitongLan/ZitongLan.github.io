@@ -33,7 +33,7 @@ redirect_from:
     </div>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="../images/SD_image.jpg" alt="photo" style="max-width: 80%; height: auto;">
+    <img src="../images/me.png" alt="photo" style="max-width: 80%; height: auto;">
   </div>
 </div>
 <br>
