@@ -12,14 +12,9 @@ redirect_from:
   <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
     <h1 class="author__name">Zitong Lan (兰自桐)</h1>
     <p style="margin-top: -6px; margin-bottom: 16px;"><strong>Ph.D. Student, University of Pennsylvania</strong></p>
-    <div class="research-highlight">
-      <strong>Research Directions:</strong><br>
-      <span class="research-tag">Multimodal Learning</span>
-      <span class="research-tag">Audio/Speech</span>
-    </div>
     <p>
-      I am currently a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
-      and work with <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. Currently I work on multimodal learning, especially focusing on audio/speech/acoustic. I have worked on audio generation, audio language model and acoustic field modeling. Feel free to drop me an email if you are interested in my research for collaborations!
+      I am a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
+      , advised by Prof. <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I work on <strong>multimodal learning</strong>, especially focusing on audio/speech/acoustic. I have worked on full-duplex speech language model, audio generation/editing, audio language model and spatial audio modeling.
       <br>
       <br>
       I graduated from <a href="https://www.seu.edu.cn/">Southeast University</a> with a bachelor degree in Electrical
