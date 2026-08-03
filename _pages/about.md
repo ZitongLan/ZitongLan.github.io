@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="display: flex; align-items: center;">
-  <div style="flex: 2; padding-left: 5px; padding-right: 20px;">
+  <div class="about-bio-text" style="flex: 1.6; padding-left: 5px; padding-right: 20px;">
     <h1 class="author__name">Zitong Lan (兰自桐)</h1>
     <p style="margin-top: -6px; margin-bottom: 16px;"><strong>Ph.D. Student, University of Pennsylvania</strong></p>
     <p>
@@ -27,8 +27,8 @@ redirect_from:
       <a href="./files/CV_zitonglan.pdf">CV</a>
     </div>
   </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="../images/me.png" alt="photo" style="max-width: 80%; height: auto;">
+  <div style="flex: 1.2; text-align: center;">
+    <img src="../images/me.png" alt="photo" style="max-width: 100%; height: auto;">
   </div>
 </div>
 <br>
@@ -37,12 +37,12 @@ redirect_from:
 News
 =====
 * **2026-03**: I will join Microsoft as a Research Intern for 2026 Summer in Redmond. Connect if you are around!
-* **2026-02**: Two papers are conditionally accepted by Mobisys'26. (i) <strong><a
+* **2026-03**: Two papers get accepted by Mobisys'26. (i) <strong><a
     href="https://arxiv.org/abs/2512.10778">AV-Twin</a></strong> introduces a complete framework to capture and
 reconsutrct an audio-visual digital twin while enbales flexible user edit. (ii) <strong>SurfRadar</strong> builds a
 mathmatical connection between high-resolution radar signal and surface properties including permittivity and surface
 roughness.
-* **2026-01**: Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> accepted by NeurIPS'25 GenProCC workshop with Oral presentation, is accepted by ICLR'26!
+* **2026-01**: Here we go! <strong><a href="https://arxiv.org/abs/2509.21625">SmartDJ</a></strong> accepted by NeurIPS'25 GenProCC workshop with Oral presentation, also get accepted by ICLR'26!
 * **2025-09**: Two papers are accepted at NeurIPS'25 main conference. (i) <strong><a
     href="https://arxiv.org/abs/2509.21625">Versa</a></strong> introduces a learning strategy inspired by the
 reciprocity principle for acoustic field training. (ii) <strong><a
@@ -250,7 +250,6 @@ Selected Publications
   </div>
 </div>
 
-
 <!-- <div style="display: flex; align-items: center;">
   <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
     <img src="../images/wheelchair.png" alt="wheelchair" style="max-width:45%; height: auto;">
@@ -290,15 +289,14 @@ Awards
 
 Services
 ====
-Reviewers for NeurIPS (2025, 2026), ICML (2026), ICLR (2026), CVPR (2025), TASLP, TVCG
-
+Reviewers for NeurIPS (2025, 2026), ICML (2026), ICLR (2026), CVPR (2025), Siggraph Asia, TASLP, TVCG
 
 <br>
 
 Beyond Research...
 ====
-🎾 Tennis | 🏃‍♂️ Running | 🏊 Swimming | ⚽ Soccer | 🏸 Badminton
+🎾 Tennis | 🏃‍♂️ Running | ⛷️ Skiing | 🧗 Climbing | 🤿 Diving | 🏊 Swimming | ⚽ Soccer | 🏸 Badminton 
 <br>
 🍣 Food | 🎬 Movies | 🎹 Piano | 🌱 Plants 
 <br>
-🇯🇵 Studying Japanese — こんにちは！
+<!-- Studying Japanese — こんにちは！ -->

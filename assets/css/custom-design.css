@@ -78,11 +78,12 @@ a:hover {
    ================================================================== */
 
 .author__name {
-    font-size: 2.2rem;
+    font-family: "Playfair Display", "Noto Serif SC", "Songti SC", serif;
+    font-size: 2.4rem;
     color: var(--text-primary);
     margin-bottom: 1.25rem;
-    font-weight: 800;
-    letter-spacing: -0.5px;
+    font-weight: 700;
+    letter-spacing: 0;
 }
 
 div[style*="display: flex"][style*="align-items: center"] {
@@ -101,12 +102,12 @@ div[style*="flex: 1"][style*="text-align: center"] img {
 }
 
 /* Bio text area */
-div[style*="flex: 2"] {
+.about-bio-text {
     padding: 1.5rem;
     border-radius: 8px;
 }
 
-div[style*="flex: 2"] p {
+.about-bio-text p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 0;
@@ -322,7 +323,7 @@ hr {
         flex-direction: column;
     }
 
-    div[style*="flex: 2"] {
+    .about-bio-text {
         padding: 1rem;
     }
 

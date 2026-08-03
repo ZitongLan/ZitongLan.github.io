@@ -20,7 +20,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm's native extension doesn't build against modern Ruby's C API; jekyll serve
+# falls back to polling for file changes on Windows without it.
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 # If you have any plugins, put them here!
