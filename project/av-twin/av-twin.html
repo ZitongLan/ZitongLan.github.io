@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="AV-Twin: Building Audio-Visual Digital Twins with Smartphones">
+  <meta property="og:title" content="AV-Twin">
+  <meta property="og:description" content="AV-Twin: Building Audio-Visual Digital Twins with Smartphones">
+  <meta property="twitter:title" content="AV-Twin">
+  <meta property="twitter:description" content="AV-Twin: Building Audio-Visual Digital Twins with Smartphones">
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="Audio-Visual Digital Twin, Room Impulse Response, Acoustic Rendering, Scene Editing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AV-Twin</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D65ZW4CJYF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-D65ZW4CJYF');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="./static/js/jquery-3.6.4.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/lazy.js"></script>
+  <script src="./static/js/faster.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <style>
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      gap: 0px 4px;
+      width: 65%;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .video-grid video {
+      width: 100%;
+      height: auto;
+    }
+
+    .interpolation-image {
+      width: 100%;
+      max-width: 480px;
+      height: auto;
+    }
+
+    .interpolation-image.figure-wide {
+      max-width: 700px;
+    }
+
+    .interpolation-image.figure-medium {
+      max-width: 560px;
+    }
+
+    .youtube-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 24px;
+      width: 68%;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .youtube-grid>div {
+      min-width: 0;
+    }
+
+    .youtube-thumb {
+      position: relative;
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .youtube-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      opacity: 0.85;
+    }
+
+    .youtube-thumb .play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 54px;
+      color: #fff;
+      text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    }
+
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px 28px;
+      width: 78%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .compare-grid>div {
+      min-width: 0;
+    }
+
+    .compare-grid video,
+    .compare-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .compare-label {
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .compare-room-title {
+      text-align: center;
+      font-size: 20px;
+      margin: 30px 0 10px 0;
+    }
+
+    .youtube-title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .section {
+      padding: 1.25rem 1.5rem !important;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">&#129694;AV-Twin
+              <p style="font-size: 26px; font-weight: 400;">Building Audio-Visual Digital Twins with Smartphones</p>
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://zitonglan.github.io/">Zitong Lan</a>, </span>
+              <span class="author-block">
+                Yiwei Tang, </span>
+              <span class="author-block">
+                Yuhan Wang, </span>
+              <span class="author-block">
+                <a href="https://haowenlai.github.io/">Haowen Lai</a>, </span>
+              <span class="author-block">
+                <a href="https://yiduohao.github.io/">Yiduo Hao</a>, </span>
+              <span class="author-block">
+                <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">University of Pennsylvania &nbsp; </span>
+            </div>
+
+            <h1 style="font-size:24px;">
+              <span style="color:black;">MobiSys</span>
+              <span style="color:red;">2026</span>
+            </h1>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2512.10778" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=k31nKDRhJJw"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Demo Video</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=vLT9U1BNfMY"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Presentation</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/penn-waves-lab" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (coming soon)</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" style="max-width: 45%;">
+    <div class="columns is-centered">
+      <div style="background-color: #f9f9f9; border-left: 2px solid #3273dc; padding: 10px; margin-bottom: 10px;">
+        <p style="font-size:20px;"><strong>TL;DR:</strong> AV-Twin turns a smartphone video-and-audio recording of a
+          room into an <b>editable audio-visual digital twin</b> &mdash; a 3D scene whose materials, geometry, and
+          layout can be edited, with both the acoustics (room impulse response) and the visuals updating
+          automatically together.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="youtube-grid">
+    <div>
+      <p class="youtube-title">Demo Video</p>
+      <a class="youtube-thumb" href="https://www.youtube.com/watch?v=k31nKDRhJJw" target="_blank"
+        rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/k31nKDRhJJw/hqdefault.jpg" alt="AV-Twin demo video thumbnail" />
+        <span class="play-icon"><i class="fab fa-youtube"></i></span>
+      </a>
+    </div>
+    <div>
+      <p class="youtube-title">Presentation</p>
+      <a class="youtube-thumb" href="https://www.youtube.com/watch?v=vLT9U1BNfMY" target="_blank"
+        rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/vLT9U1BNfMY/hqdefault.jpg" alt="AV-Twin presentation video thumbnail" />
+        <span class="play-icon"><i class="fab fa-youtube"></i></span>
+      </a>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="video-grid">
+    <div class="has-text-centered">
+      <div>
+        <img src="static/images/teaser.png" class="interpolation-image figure-wide" alt="AV-Twin teaser figure." />
+      </div>
+      <div class="content has-text-justified" style="width: 100%; margin: 0 auto;">
+        <p style="font-size: 20px;">
+          From a phone's audio and video recording of a room, AV-Twin reconstructs an <b>audio-visual digital
+            twin</b>: a visual digital twin fused with vision priors into an <b>audio digital twin</b>. Per-surface
+          acoustic properties are then recovered, so a user can edit materials or geometry and have both the
+          rendered <b>audio and visuals update together</b>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <section class="section">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Acoustic Field Reconstruction</h2>
+    </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="content has-text-justified" style="width: 75%; margin: 0 auto;">
+          <p style="font-size: 20px;">
+            The vision-assisted acoustic field model reconstructs a continuous sound field over the entire room from
+            sparse phone measurements: loudness, plus per-wavelength amplitude and phase, evaluated at &lambda; = 1m
+            and &lambda; = 0.5m. The concentric phase rings around the source show the field staying consistent with
+            wave propagation, across a conference room, an empty room, a classroom, and a lecture room.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="video-grid">
+      <div class="has-text-centered">
+        <img src="static/images/acoustic_field.jpg" class="interpolation-image figure-wide"
+          alt="Reconstructed acoustic field: loudness, amplitude, and phase across four rooms." />
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section class="section">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Per-Surface Material Estimation</h2>
+    </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="content has-text-justified" style="width: 75%; margin: 0 auto;">
+          <p style="font-size: 20px;">
+            AV-Twin segments the reconstructed mesh into surfaces and, through differentiable acoustic rendering,
+            recovers a per-surface reflection coefficient &mdash; consistently across a classroom, an empty room, a
+            conference room, and a lecture room.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="video-grid">
+      <div class="has-text-centered">
+        <img src="static/images/material_estimation.png" class="interpolation-image figure-wide"
+          alt="Per-surface material estimation across four scenes." />
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section class="section">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Audio-Visual Scene Editing</h2>
+    </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="content has-text-justified" style="width: 75%; margin: 0 auto;">
+          <p style="font-size: 20px;">
+            Once materials and geometry are recovered, a user can edit either one directly on the 3D mesh. AV-Twin
+            re-renders the impulse response along the acoustic paths affected by the edit, so the rendered audio
+            reflects the new reflectivity or layout &mdash; while the visual appearance updates in lockstep.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="video-grid">
+      <div class="has-text-centered">
+        <img src="static/images/scene_edit.png" class="interpolation-image figure-wide"
+          alt="Schematic of material and geometry editing." />
+        <p style="font-size: 18px; width: 100%; margin: 10px auto;">Editing a surface's material (top) or the room's
+          geometry (bottom) changes the acoustic paths between speaker and microphone, which is reflected in the
+          rendered impulse response's energy decay.</p>
+      </div>
+    </div>
+    <br>
+    <div class="video-grid">
+      <div class="has-text-centered">
+        <img src="static/images/dynamic_edits.png" class="interpolation-image figure-medium"
+          alt="Quantitative results of reflectivity and geometry editing." />
+        <p style="font-size: 18px; width: 100%; margin: 10px auto;">Increasing wall reflectivity (a) or adding
+          obstacles that create new acoustic paths (b) produces the expected change in T60, early decay time (EDT),
+          and clarity (C50).</p>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section class="section">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Video Comparisons</h2>
+    </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="content has-text-justified" style="width: 75%; margin: 0 auto;">
+          <p style="font-size: 20px;">
+            Music rendered along a moving listener trajectory using AV-Twin's reconstructed acoustic field
+            (<b>Ours</b>), compared against an anchor-based baseline. <b>Headphones are strongly recommended.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="compare-room-title">Lecture room</p>
+    <div class="compare-grid">
+      <div>
+        <p class="compare-label">Ours (dynamic trajectory)</p>
+        <video controls muted loop>
+          <source src="static/videos/towne225_ours.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div>
+        <p class="compare-label">Baseline (anchor-based)</p>
+        <video controls muted loop>
+          <source src="static/videos/towne225_baseline.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <p class="compare-room-title">Meeting room</p>
+    <div class="compare-grid">
+      <div>
+        <p class="compare-label">Ours (dynamic trajectory)</p>
+        <video controls muted loop>
+          <source src="static/videos/114greenburg_ours.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div>
+        <p class="compare-label">Baseline (anchor-based)</p>
+        <video controls muted loop>
+          <source src="static/videos/114greenburg_baseline.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3">BibTeX</h2>
+      <pre><code>@inproceedings{lan2026avtwin,
+  title={Building Audio-Visual Digital Twins with Smartphones},
+  author={Lan, Zitong and Tang, Yiwei and Wang, Yuhan and Lai, Haowen and Hao, Yiduo and Zhao, Mingmin},
+  booktitle={Proceedings of the 24th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+  year={2026}
+}
+</code></pre>
+    </div>
+  </section>
+
+</body>
+
+</html>

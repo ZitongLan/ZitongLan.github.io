@@ -93,12 +93,13 @@ Selected Publications
     </div>
     <div style="flex: 2; padding-left: 20px;">
       <p>
-        <strong><a href="https://arxiv.org/abs/2512.10778">Building Audio-Visual Digital Twins with
+        <strong><a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241">Building Audio-Visual Digital Twins with
             Smartphones</a></strong><br>
         <strong>Zitong Lan</strong>, Yiwei Tang, Yuhan Wang, Haowen Lai, Yiduo Hao, Mingmin Zhao<br>
         <i>Mobisys</i>, 2026<br>
-        [<strong><a href="https://arxiv.org/pdf/2512.10778">Paper</a></strong>][<strong><a
-            href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
+        [<strong><a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241">Paper</a></strong>][<strong><a
+            href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>][<strong><a href=https://www.youtube.com/watch?v=vLT9U1BNfMY&t>Presentation</a> </strong>][<strong><a
+            href="../project/av-twin/av-twin.html">Project page</a></strong>]
       </p>
     </div>
   </div>
