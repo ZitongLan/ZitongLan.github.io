@@ -99,7 +99,7 @@ Selected Publications
         <i>Mobisys</i>, 2026<br>
         [<strong><a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241">Paper</a></strong>]
         [<strong><a href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
-        [<strong><a href=https://www.youtube.com/watch?v=vLT9U1BNfMY&t>Presentation</a></strong>]
+        [<strong><a href="https://www.youtube.com/watch?v=vLT9U1BNfMY&t">Presentation</a></strong>]
         [<strong><a href="../project/av-twin/av-twin.html">Project page</a></strong>]
       </p>
     </div>
