@@ -116,8 +116,7 @@ Selected Publications
       <strong><a href="https://openreview.net/pdf?id=eNmANCkefl">SmartDJ: Declarative Audio Editing with Audio Language
           Model</a></strong><br>
       <strong>Zitong Lan</strong>, Yiduo Hao , Mingmin Zhao<br>
-      <i>ICLR</i>, 2026 <br>
-      <i>NeurIPS GenProcc</i>, 2025 (<span style="color:red;">Oral</span>) <br>
+      <i>ICLR</i>, 2026 · <i>NeurIPS GenProcc</i>, 2025 (<span style="color:red;">Oral</span>) <br>
       [<strong><a href="https://openreview.net/pdf?id=eNmANCkefl">Paper</a></strong>]
       [<strong><a href="../project/smartdj/smartdj.html">Project page</a></strong>]
       [<strong><a href="https://github.com/penn-waves-lab/SmartDJ">Code</a></strong>]
@@ -126,12 +125,8 @@ Selected Publications
       <a href="https://penntoday.upenn.edu/news/penn-engineering-smartdj-lets-users-reshape-audio-experiences-simple-words">Penn Today</a> ·
       <a href="https://www.seas.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/">SEAS</a> ·
       <a href="https://www.eurekalert.org/news-releases/1125379">EurekaAlert</a> ·
-      <a href="https://www.inavateonthenet.net/news/article/aipowered-editor-allows-the-redesign-immersive-audio-experiences-using-simple-words">Inavate</a> ·
       <a href="https://techxplore.com/news/2026-04-smartdj-users-reshape-audio-simple.html">TechXplore</a> ·
-      <a href="https://www.techexplorist.com/smartdj-ai-edits-soundscapes-simple-prompts/102775/">Tech Explorist</a> ·
-      <a href="https://thedebrief.org/chat-gpt-of-sound-smartdj-lets-users-customize-their-immersive-sound-environment-with-simple-voice-commands-in-everyday-language/">The Debrief</a> ·
-      <a href="https://www.international-sound-directory.com/2026/04/25/new-ai-tool-lets-anyone-edit-audio-with-simple-text/">International Sound Directory</a>  ·
-      <a href="https://www.msn.com/en-us/news/other/smartdj-debuts-with-ai-powered-natural-language-audio-editing/gm-GM1EA6EF82?ocid=BingNewsVerp">MSN News</a>
+      <a href="https://www.msn.com/en-us/news/other/smartdj-debuts-with-ai-powered-natural-language-audio-editing/gm-GM1EA6EF82?ocid=BingNewsVerp">MSN News and More</a>
     </p>
   </div>
 </div>
@@ -143,9 +138,10 @@ Selected Publications
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <p>
-      <strong><a href="">Surface Characterization with mmWave Signals</a></strong><br>
+      <strong><a href="https://dl.acm.org/doi/10.1145/3745756.3809230">Surface Characterization with mmWave Signals</a></strong><br>
       Haowen Lai, <strong>Zitong Lan</strong>, Dongyin Hu, Mingmin Zhao<br>
-      <i>Mobisys</i>, 2026
+      <i>Mobisys</i>, 2026<br>
+      [<strong><a href="https://dl.acm.org/doi/10.1145/3745756.3809230">Paper</a></strong>]
     </p>
   </div>
 </div>
@@ -220,6 +216,22 @@ Selected Publications
   </div>
 </div>
 
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+  <div style="flex: 1;">
+    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 90%; height: auto;">
+  </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong><a href="https://arxiv.org/abs/2407.19656">Quantum sensing for fine-grained liquid recognition using Rydberg atoms</a></strong><br>
+      Jinlian Hu, Yuwen Yin, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi
+      Su, Beihong Jin, Daqing Zhang, Yuechun Jiao, Jianming Zhao, Suotang Jia<br>
+      IEEE Comm. Mag. 2026<br>
+      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
+    </p>
+  </div>
+</div>
+
 <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
   <div style="flex: 1;">
     <img src="../images/bleselect.png" alt="BLEselect" style="max-width: 90%; height: auto;">
@@ -236,21 +248,6 @@ Selected Publications
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
-  <div style="flex: 1;">
-    <img src="../images/quantum_liquid.png" alt="Quantum liquid" style="max-width: 90%; height: auto;">
-  </div>
-  <div style="flex: 2; padding-left: 20px;">
-    <p>
-      <strong><a href="https://arxiv.org/abs/2407.19656">Exploring quantum sensing for fine-grained liquid
-          recognition</a></strong><br>
-      Yuechun Jiao, Jinlian Hu, <strong>Zitong Lan</strong>, Fusang Zhang, Jie Xiong, Jingxu Bai, Zhaoxin Chang, Yuqi
-      Su, Beihong Jin, Daqing Zhang, Jianming Zhao, Suotang Jia<br>
-      Arxiv preprint <br>
-      [<strong><a href="https://arxiv.org/abs/2407.19656">Paper</a></strong>]
-    </p>
-  </div>
-</div>
 
 <!-- <div style="display: flex; align-items: center;">
   <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
