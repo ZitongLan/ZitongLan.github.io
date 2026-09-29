@@ -21,7 +21,6 @@ redirect_from:
       Engineering with honor. In the past, I am very fortunate to have worked with Prof. Tengxiang Zhang, Fusang Zhang, Jie
       Xiong and Yang Zhang.
     </p>
-    <p style="color: red;"><strong>I am looking for a research internship for Summer 2027. Feel free to reach out!</strong></p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
       <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
@@ -34,6 +33,7 @@ redirect_from:
 </div>
 <br>
 
+<p style="color: red;"><strong>I am looking for a research internship for Summer 2027. Feel free to reach out!</strong></p>
 
 News
 =====
@@ -105,7 +105,7 @@ Selected Publications
 </div>
 
 
-  <div style="display: flex; align-items: flex-start;">
+  <!-- <div style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
       <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
     </div>
@@ -121,7 +121,7 @@ Selected Publications
         [<strong><a href="../project/av-twin/av-twin.html">Project page</a></strong>]
       </p>
     </div>
-  </div>
+  </div> -->
 
 
 <div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
