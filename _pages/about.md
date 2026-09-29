@@ -21,6 +21,7 @@ redirect_from:
       Engineering with honor. In the past, I am very fortunate to have worked with Prof. Tengxiang Zhang, Fusang Zhang, Jie
       Xiong and Yang Zhang.
     </p>
+    <p style="color: red;"><strong>I am looking for a research internship for Summer 2027. Feel free to reach out!</strong></p>
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
       <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
@@ -85,6 +86,43 @@ Selected Videos
 
 Selected Publications
 =====
+
+
+<div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
+  <div style="display: flex; align-items: flex-start;">
+    <div style="flex: 1;">
+      <img src="../images/omnidream_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>
+        <strong><a href="">Enabling Immersive Audio-Visual Experience from Any Video </a></strong><br>
+        <strong>Zitong Lan</strong>, Mutian Tong, Jiatao Gu, Mingmin Zhao<br>
+        <i>Preprint</i>, 2026<br>
+        [<strong><a href="">Paper</a></strong>]
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  <div style="display: flex; align-items: flex-start;">
+    <div style="flex: 1;">
+      <img src="../images/avtwin_teaser.png" alt="avr" style="max-width: 90%; height: auto;">
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>
+        <strong><a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241">Building Audio-Visual Digital Twins with
+            Smartphones</a></strong><br>
+        <strong>Zitong Lan</strong>, Yiwei Tang, Yuhan Wang, Haowen Lai, Yiduo Hao, Mingmin Zhao<br>
+        <i>Mobisys</i>, 2026<br>
+        [<strong><a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809241">Paper</a></strong>]
+        [<strong><a href="https://www.youtube.com/watch?v=k31nKDRhJJw">Demo video</a></strong>]
+        [<strong><a href="https://www.youtube.com/watch?v=vLT9U1BNfMY&t">Presentation</a></strong>]
+        [<strong><a href="../project/av-twin/av-twin.html">Project page</a></strong>]
+      </p>
+    </div>
+  </div>
+
 
 <div style="background-color: #fff8e0; padding: 10px 14px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #f0e0a0;">
   <div style="display: flex; align-items: flex-start;">
