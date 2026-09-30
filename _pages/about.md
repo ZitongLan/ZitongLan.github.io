@@ -95,10 +95,10 @@ Selected Publications
     </div>
     <div style="flex: 2; padding-left: 20px;">
       <p>
-        <strong><a href="">Enabling Immersive Audio-Visual Experience from Any Video </a></strong><br>
+        <strong><a href="https://arxiv.org/abs/2609.36295">Enabling Immersive Audio-Visual Experience from Any Video </a></strong><br>
         <strong>Zitong Lan</strong>, Mutian Tong, Jiatao Gu, Mingmin Zhao<br>
         <i>Preprint</i>, 2026<br>
-        [<strong><a href="">Paper</a></strong>]
+        [<strong><a href="https://arxiv.org/abs/2609.36295">Paper</a></strong>]
       </p>
     </div>
   </div>
