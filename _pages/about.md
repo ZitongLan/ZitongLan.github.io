@@ -33,7 +33,8 @@ redirect_from:
 </div>
 <br>
 
-<p style="color: red;"><strong>I am looking for a research internship for Summer 2027. Feel free to reach out!</strong></p>
+<span style="color:red;"><strong>I am actively seeking a research intern position for Summer 2027. Feel free to reach out!</strong></span>
+
 
 News
 =====
