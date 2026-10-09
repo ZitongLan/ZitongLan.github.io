@@ -24,7 +24,7 @@ redirect_from:
     <div class="link-container">
       <a href="mailto:ztlan@seas.upenn.edu">Email</a>
       <a href="https://scholar.google.com/citations?hl=en&user=5MzZf-oAAAAJ">Google Scholar</a>
-      <a href="./files/CV_zitonglan.pdf">CV</a>
+      <a href="./files/ZitongLan_Upenn_PhD.pdf">CV</a>
     </div>
   </div>
   <div style="flex: 1.2; text-align: center;">
@@ -33,7 +33,7 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;"><strong>I am actively seeking a research intern position for Summer 2027. Feel free to reach out!</strong></span>
+<span style="color:red;">I am actively seeking a research intern position for Summer 2027. Feel free to reach out!</span>
 
 
 News
