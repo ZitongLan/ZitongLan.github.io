@@ -13,7 +13,7 @@ redirect_from:
     <h1 class="author__name">Zitong Lan (兰自桐)</h1>
     <p style="margin-top: -6px; margin-bottom: 16px;"><strong>Ph.D. Student, University of Pennsylvania</strong></p>
     <p>
-      I am a third year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
+      I am a fourth year Ph.D. student at <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a>
       , advised by Prof. <a href="https://www.cis.upenn.edu/~mingminz/">Mingmin Zhao</a>. I work on <strong>multimodal learning</strong>, especially focusing on audio/speech/acoustic. I have worked on full-duplex speech language model, audio generation/editing, audio language model and spatial audio modeling.
       <br>
       <br>
@@ -33,8 +33,7 @@ redirect_from:
 </div>
 <br>
 
-<span style="color:red;">I am actively seeking a research intern position for Summer 2027. Feel free to reach out!</span>
-
+<span style="color:red; font-size:20px;">I am actively seeking full-time opportunities and research internships for Summer 2027. Feel free to reach out!</span>
 
 News
 =====
@@ -104,6 +103,20 @@ Selected Publications
     </div>
   </div>
 </div>
+
+
+  <div style="display: flex; align-items: flex-start;">
+    <div style="flex: 1;">
+      <img src="../images/air.jpg" alt="avr" style="max-width: 80%; height: auto;">
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>
+        <strong><a href="https://arxiv.org/abs/2609.36295">Acoustic Inverse Rendering for Room Reconstruction</a></strong><br>
+        Yiduo Hao<sup></sup>, Yiwei Tang<sup></sup>, Jiayang Li<sup></sup>, <strong>Zitong Lan</strong><sup></sup>, Haowen Lai, Romit Roy Choudhury, and Mingmin Zhao<br>
+        <i>NeurIPS</i>, 2026<br>
+      </p>
+    </div>
+  </div>
 
 
   <!-- <div style="display: flex; align-items: flex-start;">
