@@ -105,19 +105,29 @@ Selected Publications
 </div>
 
 
-  <div style="display: flex; align-items: flex-start;">
-    <div style="flex: 1;">
-      <img src="../images/air.jpg" alt="avr" style="max-width: 80%; height: auto;">
-    </div>
-    <div style="flex: 2; padding-left: 20px;">
-      <p>
-        <strong><a href="https://arxiv.org/abs/2609.36295">Acoustic Inverse Rendering for Room Reconstruction</a></strong><br>
-        Yiduo Hao<sup></sup>, Yiwei Tang<sup></sup>, Jiayang Li<sup></sup>, <strong>Zitong Lan</strong><sup></sup>, Haowen Lai, Romit Roy Choudhury, and Mingmin Zhao<br>
-        <i>NeurIPS</i>, 2026<br>
-      </p>
-    </div>
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+    <img src="../images/air.jpg" alt="avr"
+         style="max-width: 80%; height: auto;">
   </div>
 
+  <div style="flex: 2; padding-left: 20px;">
+    <p>
+      <strong>
+        <a href="https://arxiv.org/abs/2609.36295">
+          Acoustic Inverse Rendering for Room Reconstruction
+        </a>
+      </strong><br>
+
+      Yiduo Hao<sup class="contribution-marker">*</sup>,
+      Yiwei Tang<sup class="contribution-marker">*</sup>,
+      Jiayang Li<sup class="contribution-marker">*</sup>,
+      <strong>Zitong Lan</strong><sup class="contribution-marker">*</sup>,
+      Haowen Lai, Romit Roy Choudhury, and Mingmin Zhao<br>
+      <i>NeurIPS</i>, 2026<br>
+      <span class="contribution-note">* Core contribution </span></p>
+  </div>
+</div>
 
   <!-- <div style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
